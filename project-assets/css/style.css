@@ -1,9 +1,11 @@
 /*======================================================================================================Imports*/
 
-/* The Monkees album cover fonts*/
 
 @import url(//db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std);
 @import url(//db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo);
+@import url(//db.onlinewebfonts.com/c/6f647d2fb27f7ad2f727d5286bc1bed1?family=Quotes);
+
+/* The Monkees album cover fonts*/
 
 @font-face {
     font-family: "Kalligraphia LT Std";
@@ -23,6 +25,17 @@
     url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.svg#Hobo") format("svg");
+}
+
+/*font for quotes*/
+@font-face {
+    font-family: "Quotes";
+    src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot");
+    src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.svg#Quotes") format("svg");
 }
 
 
@@ -125,6 +138,17 @@ main .row {
     /*Filters image with transparent black*/
 }
 
+/*======================================================================================================Home: Aside*/
+aside .blockquote {
+    padding-top: 200px;
+    margin: 60px;
+    font-family: "quotes", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #f4eff4;
+
+}
 
 
 /*======================================================================================================Home: Main Nav Buttons*/
@@ -312,6 +336,15 @@ main .row {
 
     #down-icon {
         font-size: 80px;
+
+    }
+
+
+    aside .blockquote {
+
+        font-size: 2em;
+        padding-top: 400px;
+        margin: 80;
 
     }
 

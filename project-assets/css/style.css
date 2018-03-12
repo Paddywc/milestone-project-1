@@ -1,8 +1,6 @@
 /*======================================================================================================Imports*/
 
-
 /* The Monkees album cover fonts*/
-
 
 @import url(//db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std);
 @import url(//db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo);
@@ -29,24 +27,131 @@
 
 
 
-/*======================================================================================================Colors*/
 
+
+/*======================================================================================================Colors*/
 
 body {
     background-color: #404040;
+    /*Grayish black*/
 }
 
 
 /*======================================================================================================Header-General*/
 
+.header-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+.row {
+    /*Fixes bug where header content was not properly centered*/
+    margin-left:0;
+    margin-right:0;
+}
+
+
+
+
+
+.header-title {
+    font-family: "Kalligraphia LT Std", sans-serif;
+    font-size: 60px;
+    color: #F4F21A;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.header-subtitle {
+    font-family: "Montserrat", sans-serif;
+    color: #ff7777;
+    /*light puruple*/
+    width: 100vw;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+/*Keeps content as part of flow*/
+
+.hide-on-home {
+    visibility: hidden;
+}
+
+#down-icon {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
 
 
 
 
 
 
+/*======================================================================================================Header-backgrounds*/
 
-/*======================================================================================================Header-Specfic*/
+.home-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/The_Monkees-1966-BW-car.jpg");
+    /*Filters image with transparent black*/
+}
 
 
 
+
+
+/*======================================================================================================Header-Responsive*/
+
+@media(min-width:750px) {
+
+    .header-title {
+        font-size: 120px;
+    }
+
+    .header-subtitle {
+        font-size: 25px;
+    }
+
+
+    #down-icon {
+        font-size: 80px;
+
+    }
+
+
+}
+
+
+
+
+@media(min-width:1100px) {
+    .home-header-container {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/monkees-car.jpg");
+
+    }
+
+    .header-title {
+        font-size: 180px;
+    }
+    .header-subtitle {
+        font-size: 30px;
+    }
+
+    #down-icon {
+        font-size: 120px;
+    }
+}

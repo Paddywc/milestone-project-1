@@ -174,8 +174,10 @@ main .row {
 }
 
 .home-nav-button a {
-    /*ensures content inside can properly be center-justified*/
-    width: 100%
+    /*Center allign and justfies content within main nav buttons*/
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
 .home-nav-button-content .button-subtitle {

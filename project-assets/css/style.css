@@ -112,10 +112,33 @@ main .row {
 }
 
 /*Keeps content as part of flow*/
-
 .hide-on-home {
     visibility: hidden;
 }
+
+
+.return-home i {
+    font-size: 13px;
+
+}
+
+
+.return-home:hover {
+    text-decoration: none;
+}
+
+.return-home-wrapper {
+    transform: translateY(15vh);
+    width: 100%;
+    text-align:center;
+}
+
+.return-home {
+    font-size: 13px;
+
+}
+
+
 
 #down-icon {
     color: #ff7777;
@@ -130,11 +153,19 @@ main .row {
 
 
 
+
+
+
+
 /*======================================================================================================Header-backgrounds*/
 
 .home-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/The_Monkees-1966-BW-car.jpg");
     /*Filters image with transparent black*/
+}
+
+.book-header-container{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car.jpg");
 }
 
 /*======================================================================================================Home: Aside*/
@@ -338,6 +369,14 @@ aside .blockquote {
 
     }
 
+ .return-home {
+        font-size: 27px;
+    }
+
+
+    .return-home i {
+        font-size: 27px;
+    }
 
     
 
@@ -373,6 +412,14 @@ aside .blockquote {
     }
     .header-subtitle {
         font-size: 30px;
+    }
+    
+    .return-home {
+        font-size: 40px;
+    }
+
+    .return-home i {
+        font-size: 40px;
     }
 
     #down-icon {

@@ -150,7 +150,6 @@ main .row {
     position: absolute;
     height: 100%;
     width: 100%;
-    filter: grayscale(1);
     transition: filter 1s ease-in-out;
 
 
@@ -183,7 +182,6 @@ main .row {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #ff7777;
-    opacity: 0;
     font-size: 15px;
     transition: opacity 1s ease-in-out;
     text-decoration: none;
@@ -363,9 +361,15 @@ main .row {
         letter-spacing: 15px;
 
     }
+    
+    .home-nav-button-background{
+        filter: grayscale(1);
+    }
 
     .home-nav-button-content .button-subtitle {
         font-size: 30px;
+            opacity: 0;
+
     }
 
 }

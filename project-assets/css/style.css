@@ -186,6 +186,7 @@ main .row {
     transition: opacity 1s ease-in-out;
     text-decoration: none;
     transform: translateY(-50%);
+    padding-top: 50px;
 
 
 }

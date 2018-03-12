@@ -101,8 +101,7 @@ main .row {
 
 .header-subtitle {
     font-family: "Montserrat", sans-serif;
-    color: #ff7777;
-    /*light puruple*/
+    color: #ff7777;   /*light puruple*/
     width: 100vw;
     font-size: 12px;
     display: flex;
@@ -119,7 +118,7 @@ main .row {
 }
 
 #down-icon {
-    color: red;
+    color: #ff7777;
     font-size: 40px;
     position: absolute;
     bottom: 0;

@@ -340,13 +340,7 @@ aside .blockquote {
     }
 
 
-    aside .blockquote {
-
-        font-size: 2em;
-        padding-top: 400px;
-        margin: 80;
-
-    }
+    
 
     .home-nav-button-content .button-title {
         font-size: 100px;
@@ -403,6 +397,14 @@ aside .blockquote {
     .home-nav-button-content .button-subtitle {
         font-size: 30px;
             opacity: 0;
+
+    }
+    
+    aside .blockquote {
+
+        font-size: 2em;
+        padding-top: 400px;
+        margin: 80;
 
     }
 

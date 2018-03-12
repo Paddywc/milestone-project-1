@@ -169,22 +169,16 @@ main .row {
     z-index: 10;
     font-size: 50px;
     letter-spacing: 5px;
+    transition: opacity 1s ease-in-out;
 
 
-}
-
-.home-nav-button a {
-    /*Center allign and justfies content within main nav buttons*/
-    display: flex;
-    align-items:center;
-    justify-content: center;
 }
 
 .home-nav-button-content .button-subtitle {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #ff7777;
-
+    opacity: 0;
     font-size: 15px;
     transition: opacity 1s ease-in-out;
     text-decoration: none;
@@ -193,34 +187,43 @@ main .row {
 
 }
 
+.home-nav-button a {
+    /*Center allign and justfies content within main nav buttons*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 /*======================================================================================================Home: Background images for main nav buttons*/
 
-.book-button-background {
+.book-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car-shorter.jpg");
 }
 
-.listen-button-background {
+.listen-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car-shorter.jpg");
 
 }
 
 
-.follow-button-background {
+.follow-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow-shorter.png");
     background-position: top;
 }
 
-.attend-button-background {
+.attend-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
     background-position: bottom;
 }
 
-.learn-button-background {
+.learn-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-shorter.jpg");
     background-position: top;
 }
 
-.contact-button-background {
+.contact-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
     background-position: top;
 }
@@ -231,10 +234,7 @@ main .row {
 
 
 
-
-
-
-/*======================================================================================================Header-Responsive*/
+/*======================================================================================================Responsive*/
 
 @media(min-width:750px) {
 
@@ -305,3 +305,5 @@ main .row {
     }
 
 }
+
+

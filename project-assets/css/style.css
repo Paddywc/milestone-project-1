@@ -125,7 +125,7 @@ main .row{
 
 
 
-/*======================================================================================================Home-main-nav-buttons*/
+/*======================================================================================================Home: Main Nav Buttons*/
 
 .home-nav-button {
     height: 200px;
@@ -140,7 +140,6 @@ main .row{
 
 
 .home-nav-button-background{
- background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car-shorter.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -187,6 +186,39 @@ main .row{
 
 
 }
+
+/*======================================================================================================Home: Background images for main nav buttons*/
+
+.book-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car-shorter.jpg");
+}
+
+.listen-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car-shorter.jpg");
+
+}
+
+
+.follow-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow-shorter.png");
+    background-position: top;
+}
+
+.attend-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-position: bottom;
+}
+
+.learn-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-shorter.jpg");
+    background-position: top;
+}
+
+.contact-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
+    background-position: top;
+}
+
 
 
 

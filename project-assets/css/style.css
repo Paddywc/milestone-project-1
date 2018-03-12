@@ -150,6 +150,10 @@ main .row {
     position: absolute;
     height: 100%;
     width: 100%;
+    filter: grayscale(1);
+    transition: filter 1s ease-in-out;
+
+
 }
 
 
@@ -157,9 +161,10 @@ main .row {
     text-align: center;
     position: relative;
     transform: translateY(15%);
+     /*stops overflow on smaller devices:;*/
     padding-left: 20px;
     padding-right: 20px;
-    /*stops overflow on phone*/
+   
 }
 
 .home-nav-button-content .button-title {
@@ -192,6 +197,9 @@ main .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    /*prevents text decoration on hover*/
+    text-decoration: none;
 }
 
 
@@ -231,6 +239,62 @@ main .row {
 
 
 
+
+
+/* ==========================================================================================>Nav button hover effects */
+
+
+
+.book-nav-button:hover .book-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.book-nav-button:hover .book-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+.listen-nav-button:hover .listen-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.listen-nav-button:hover .listen-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+.follow-nav-button:hover .follow-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.follow-nav-button:hover .follow-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+.attend-nav-button:hover .attend-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.attend-nav-button:hover .attend-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+.learn-nav-button:hover .learn-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.learn-nav-button:hover .learn-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+.contact-nav-button:hover .contact-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.contact-nav-button:hover .contact-nav-button-content .button-subtitle {
+    opacity: 100;
+}
 
 
 
@@ -305,5 +369,3 @@ main .row {
     }
 
 }
-
-

@@ -348,6 +348,7 @@ aside .blockquote {
 .card-header .card-down-icon {
     text-align: center;
     margin-top: 150px;
+    z-index: 10; /*Ensures icon is seen over dropdown content*/
 
 }
 
@@ -358,6 +359,16 @@ aside .blockquote {
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
         background-position: top;
 
+}
+
+
+.book-card  .card-body img {
+    max-height: 600px; /*Overides defualt bootstrap value where img is 100vh*/
+}
+
+.book-card .card-body iframe{  /*targets youtube videos in carousel*/
+    height: 600px;
+    width:100%;
 }
 
 

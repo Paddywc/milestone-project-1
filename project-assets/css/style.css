@@ -322,9 +322,7 @@ aside .blockquote {
 
 }
 
-.card-body{
-        background-color:#f4eff4;
-}
+
 
 .secondary-page-card .card-header {
     height: 200px;
@@ -367,24 +365,30 @@ aside .blockquote {
 
 /*======================================================================================================Book*/
 
-.book-card .card-header {
+.book-media-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
     background-position: top;
 
 }
 
-.book-card .card-body {
+.quote-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/quote-car.jpg");
+
+
+}
+
+.book-media-card .card-body {
     margin-bottom: 5%;
     /*Creates space so nav-down icon is visable*/
 }
 
 
-.book-card .card-body img {
+.book-media-card .card-body img {
     max-height: 600px;
     /*Overides defualt bootstrap value where img is 100vh*/
 }
 
-.book-card .card-body iframe {
+.book-media-card .card-body iframe {
     /*targets youtube videos in carousel*/
     height: 600px;
     /*Should = max-height of img above*/

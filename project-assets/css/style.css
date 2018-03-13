@@ -170,6 +170,11 @@ main .row {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car.jpg");
 }
 
+.listen-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car.jpg");
+
+}
+
 /*======================================================================================================Home: Aside*/
 
 aside .blockquote {

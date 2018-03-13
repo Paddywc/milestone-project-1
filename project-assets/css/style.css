@@ -479,6 +479,22 @@ input[type="date"]:before {
 }
 
 
+.listen-card-collect {
+    text-align: center;
+}
+
+.listen-card-collect img {
+    max-height: 400px;
+}
+
+.listen-card-collect a {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
 
 
 

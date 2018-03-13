@@ -446,18 +446,31 @@ input[type="date"]:before {
     margin-right: 1%;
 }
 
-.video-col{
-    width: 100% ;
+.video-col {
+    width: 100%;
 }
 
 .listen-video-card .card-body {
     text-align: center;
+    border-style: double;
+    border-color: #ffffff; 
+    border-width: thick;
+}
+
+.listen-card-video iframe {
+    /*targets youtube video*/
+    width: 80%;
+    height: 80%;
+}
+
+.listen-card * {
+    /*overrides previous effects*/
+    box-shadow: none; 
+
 }
 
 
 /* ==========================================================================================>Nav button hover effects */
-
-
 
 .book-nav-button:hover .book-nav-button-background {
     filter: grayscale(0%);

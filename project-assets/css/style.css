@@ -435,9 +435,22 @@ input[type="date"]:before {
     margin-right: auto;
 }
 
+/* ==========================================================================================>Listen*/
+
+.card-body .toggle-buttons-wrapper {
+    text-align: center !important;
+}
+
+.toggle-buttons-wrapper button {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 
 
 /* ==========================================================================================>Nav button hover effects */
+
+
 
 .book-nav-button:hover .book-nav-button-background {
     filter: grayscale(0%);

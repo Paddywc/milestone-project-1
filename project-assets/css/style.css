@@ -379,6 +379,20 @@ aside .blockquote {
 }
 
 
+.carousel-control-next-icon { /*should be visable against both light and dark backgrounds*/
+    background-image: url("https://openclipart.org/download/14873/mystica-Arrow-set-Bulb-3.svg"); /*light blue, cartoonish*/
+    height:40%;
+    width:40%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://openclipart.org/download/14874/mystica-Arrow-set-Bulb-4.svg");
+    height:40%;
+    width:40%;
+}
+
+
+
 
 /* ==========================================================================================>Nav button hover effects */
 

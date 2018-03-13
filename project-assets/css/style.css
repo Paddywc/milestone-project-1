@@ -348,7 +348,8 @@ aside .blockquote {
 .card-header .card-down-icon {
     text-align: center;
     margin-top: 150px;
-    z-index: 10; /*Ensures icon is seen over dropdown content*/
+
+
 
 }
 
@@ -361,13 +362,19 @@ aside .blockquote {
 
 }
 
+.book-card .card-body {
+        margin-bottom: 5%; /*Creates space so nav-down icon is visable*/
+}
+
 
 .book-card  .card-body img {
     max-height: 600px; /*Overides defualt bootstrap value where img is 100vh*/
+
+
 }
 
 .book-card .card-body iframe{  /*targets youtube videos in carousel*/
-    height: 600px;
+    height: 600px; /*Should = max-height of img above*/
     width:100%;
 }
 
@@ -484,6 +491,10 @@ aside .blockquote {
     .card-header .card-down-icon {
         margin-top: 100px;
 
+    }
+    
+    .card-header .card-down-icon i { /*targets icon itself*/
+        margin-bottom: -15px;
     }
 
 

@@ -437,6 +437,39 @@ input[type="date"]:before {
 
 /* ==========================================================================================>Listen*/
 
+.listen-classics-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/classics-car-shorter.jpg");
+    background-position: top;
+}
+
+
+.listen-latest-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/latest-car-shorter.jpg");
+    background-position: top;
+}
+
+
+.listen-discover-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/discover-car-shorter.jpg");
+    background-position: top;
+}
+
+
+.listen-collect-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/collect-2-car.jpg");
+    background-position: top;
+}
+
+
+.listen-subscribe-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/subscribe-3.png");
+
+}
+
+
+
+
+
 .card-body .toggle-buttons-wrapper {
     text-align: center !important;
 }
@@ -633,10 +666,10 @@ input[type="date"]:before {
         /*overrides display:none*/
         display: block;
     }
-    
+
     .listen-card-collect img {
-    max-height: 400px;
-}
+        max-height: 400px;
+    }
 
 
 

@@ -484,13 +484,19 @@ input[type="date"]:before {
 }
 
 .listen-card-collect img {
-    max-height: 400px;
+    max-height: 300px;
 }
 
 .listen-card-collect a {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.listen-form button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
@@ -627,6 +633,10 @@ input[type="date"]:before {
         /*overrides display:none*/
         display: block;
     }
+    
+    .listen-card-collect img {
+    max-height: 400px;
+}
 
 
 

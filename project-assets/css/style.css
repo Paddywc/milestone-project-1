@@ -411,6 +411,21 @@ aside .blockquote {
 }
 
 
+  input[type="date"]:before { /*Ensures "event date:" placeholder is seen in date form box*/
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  
+  #input-event-details {
+      padding-bottom: 100px;
+  }
+  
+  .quote-form button {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
 
 
 /* ==========================================================================================>Nav button hover effects */

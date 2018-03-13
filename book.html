@@ -64,9 +64,6 @@
     <main>
         <section class="container-fluid secondary-page-body" id="down-to-content">
 
-
-
-
             <div class="secondary-page-card book-media-card">
                 <div class="card">
                     <div class="card-header">
@@ -83,7 +80,8 @@
                         <div class="card-body">
 
 
-                            <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false">  <!-- "Data-interval = false" stops carasol from moving automaticly. Otherwise carasol moves when watching video. -->
+                            <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <!-- "Data-interval = false" stops carasol from moving automaticly. Otherwise carasol moves when watching video. -->
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -119,8 +117,8 @@
                     </div>
                 </div>
             </div>
-            
-             <div class="secondary-page-card quote-card">
+
+            <div class="secondary-page-card quote-card">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Quote</h3>
@@ -135,12 +133,53 @@
                     <div id="collapse-quote" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
 
+                            <form class = "quote-form">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="input-first-name" placeholder="Your First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="input-second-name" placeholder="Your Second Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="input-email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" id="input-phone-number " placeholder="Phone Number (Including Prefix)">
 
-                          
-
-
-
-
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="input-location" placeholder="Event Location">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" id="input-date" placeholder="Event Date:">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="input-event-details" placeholder="Event Details..."
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>

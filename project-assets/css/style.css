@@ -446,6 +446,13 @@ input[type="date"]:before {
     margin-right: 1%;
 }
 
+.video-col{
+    width: 100% ;
+}
+
+.listen-video-card .card-body {
+    text-align: center;
+}
 
 
 /* ==========================================================================================>Nav button hover effects */

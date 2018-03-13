@@ -315,6 +315,17 @@ aside .blockquote {
 
 /*======================================================================================================Secondary page Cards*/
 
+.card {
+    border: none;
+    margin: 1% 0;
+    box-shadow: -13px 9px 12px 6px rgba(0, 0, 0, 0.75);
+
+}
+
+.card-body{
+        background-color:#f4eff4;
+}
+
 .secondary-page-card .card-header {
     height: 200px;
     width: 100%;
@@ -357,38 +368,42 @@ aside .blockquote {
 /*======================================================================================================Book*/
 
 .book-card .card-header {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
-        background-position: top;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
+    background-position: top;
 
 }
 
 .book-card .card-body {
-        margin-bottom: 5%; /*Creates space so nav-down icon is visable*/
+    margin-bottom: 5%;
+    /*Creates space so nav-down icon is visable*/
 }
 
 
-.book-card  .card-body img {
-    max-height: 600px; /*Overides defualt bootstrap value where img is 100vh*/
-
-
+.book-card .card-body img {
+    max-height: 600px;
+    /*Overides defualt bootstrap value where img is 100vh*/
 }
 
-.book-card .card-body iframe{  /*targets youtube videos in carousel*/
-    height: 600px; /*Should = max-height of img above*/
-    width:100%;
+.book-card .card-body iframe {
+    /*targets youtube videos in carousel*/
+    height: 600px;
+    /*Should = max-height of img above*/
+    width: 100%;
 }
 
 
-.carousel-control-next-icon { /*should be visable against both light and dark backgrounds*/
-    background-image: url("https://openclipart.org/download/14873/mystica-Arrow-set-Bulb-3.svg"); /*light blue, cartoonish*/
-    height:40%;
-    width:40%;
+.carousel-control-next-icon {
+    /*should be visable against both light and dark backgrounds*/
+    background-image: url("https://openclipart.org/download/14873/mystica-Arrow-set-Bulb-3.svg");
+    /*light blue, cartoonish*/
+    height: 40%;
+    width: 40%;
 }
 
 .carousel-control-prev-icon {
     background-image: url("https://openclipart.org/download/14874/mystica-Arrow-set-Bulb-4.svg");
-    height:40%;
-    width:40%;
+    height: 40%;
+    width: 40%;
 }
 
 
@@ -493,21 +508,23 @@ aside .blockquote {
 
     .card-header .card-title {
         font-size: 80px;
-        transform: translateY(5%);  /*overrides valye of 50% to increase breathing space from new subtitle position*/
+        transform: translateY(5%);
+        /*overrides valye of 50% to increase breathing space from new subtitle position*/
     }
 
     .card-header .card-subtitle {
-        font-size: 20px; 
-        transform: translateY(-80%); /* Ensures subitle remains above the nav down arrow*/
-
+        font-size: 20px;
+        transform: translateY(-80%);
+        /* Ensures subitle remains above the nav down arrow*/
     }
 
     .card-header .card-down-icon {
         margin-top: 100px;
 
     }
-    
-    .card-header .card-down-icon i { /*targets icon itself*/
+
+    .card-header .card-down-icon i {
+        /*targets icon itself*/
         margin-bottom: -15px;
     }
 
@@ -585,8 +602,7 @@ aside .blockquote {
 
     .card-header .card-subtitle {
         font-size: 30px;
-        transform: translateY(-50%) /*overrides value of -70%)*/
-
+        transform: translateY(-50%)/*overrides value of -70%)*/
     }
 
     .card-header .card-down-icon {

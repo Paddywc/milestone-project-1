@@ -358,9 +358,13 @@ aside .blockquote {
     text-align: center;
     margin-top: 150px;
 
-
-
 }
+
+.card-body {
+    margin-bottom: 5%;
+    /*Creates space so nav-down icon is visable*/
+}
+
 
 
 /*======================================================================================================Book*/
@@ -377,10 +381,6 @@ aside .blockquote {
 
 }
 
-.book-media-card .card-body {
-    margin-bottom: 5%;
-    /*Creates space so nav-down icon is visable*/
-}
 
 
 .book-media-card .card-body img {

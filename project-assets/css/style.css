@@ -1,6 +1,5 @@
 /*======================================================================================================Imports*/
 
-
 @import url(//db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std);
 @import url(//db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo);
 @import url(//db.onlinewebfonts.com/c/6f647d2fb27f7ad2f727d5286bc1bed1?family=Quotes);
@@ -28,6 +27,7 @@
 }
 
 /*font for quotes*/
+
 @font-face {
     font-family: "Quotes";
     src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot");
@@ -101,7 +101,8 @@ main .row {
 
 .header-subtitle {
     font-family: "Montserrat", sans-serif;
-    color: #ff7777;   /*light puruple*/
+    color: #ff7777;
+    /*light puruple*/
     width: 100vw;
     font-size: 12px;
     display: flex;
@@ -112,6 +113,7 @@ main .row {
 }
 
 /*Keeps content as part of flow*/
+
 .hide-on-home {
     visibility: hidden;
 }
@@ -130,7 +132,7 @@ main .row {
 .return-home-wrapper {
     transform: translateY(15vh);
     width: 100%;
-    text-align:center;
+    text-align: center;
 }
 
 .return-home {
@@ -164,11 +166,12 @@ main .row {
     /*Filters image with transparent black*/
 }
 
-.book-header-container{
+.book-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car.jpg");
 }
 
 /*======================================================================================================Home: Aside*/
+
 aside .blockquote {
     padding-top: 200px;
     margin: 60px;
@@ -214,10 +217,10 @@ aside .blockquote {
     text-align: center;
     position: relative;
     transform: translateY(15%);
-     /*stops overflow on smaller devices:;*/
+    /*stops overflow on smaller devices:;*/
     padding-left: 20px;
     padding-right: 20px;
-   
+
 }
 
 .home-nav-button-content .button-title {
@@ -250,7 +253,7 @@ aside .blockquote {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     /*prevents text decoration on hover*/
     text-decoration: none;
 }
@@ -304,25 +307,62 @@ aside .blockquote {
 
 /*======================================================================================================Secondary page*/
 
-
 .secondary-page-body {
     width: 95%;
     margin: auto;
 }
 
 
+/*======================================================================================================Secondary page Cards*/
+
+.secondary-page-card .card-header {
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-header .card-title {
+    position: relative;
+    transform: translateY(50%);
+    width: 100%;
+    text-align: center;
+    font-family: "hobo", sans-serif;
+    color: #F4F21A;
+    font-size: 40px;
+    left: 0;
+    letter-spacing: 5px;
+
+}
+
+.card-header .card-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ff7777;
+    font-size: 15px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.card-header .card-down-icon {
+    text-align: center;
+    margin-top: 150px;
+
+}
 
 
+/*======================================================================================================Book*/
 
+.book-card .card-header {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
+        background-position: top;
 
-
-
+}
 
 
 
 /* ==========================================================================================>Nav button hover effects */
-
-
 
 .book-nav-button:hover .book-nav-button-background {
     filter: grayscale(0%);
@@ -395,7 +435,7 @@ aside .blockquote {
 
     }
 
- .return-home {
+    .return-home {
         font-size: 27px;
     }
 
@@ -404,7 +444,7 @@ aside .blockquote {
         font-size: 27px;
     }
 
-    
+
 
     .home-nav-button-content .button-title {
         font-size: 100px;
@@ -415,6 +455,23 @@ aside .blockquote {
 
     .home-nav-button-content .button-subtitle {
         font-size: 20px;
+
+    }
+
+
+    .card-header .card-title {
+        font-size: 80px;
+        transform: translateY(5%);  /*overrides valye of 50% to increase breathing space from new subtitle position*/
+    }
+
+    .card-header .card-subtitle {
+        font-size: 20px; 
+        transform: translateY(-80%); /* Ensures subitle remains above the nav down arrow*/
+
+    }
+
+    .card-header .card-down-icon {
+        margin-top: 100px;
 
     }
 
@@ -439,7 +496,7 @@ aside .blockquote {
     .header-subtitle {
         font-size: 30px;
     }
-    
+
     .return-home {
         font-size: 40px;
     }
@@ -461,17 +518,17 @@ aside .blockquote {
         letter-spacing: 15px;
 
     }
-    
-    .home-nav-button-background{
+
+    .home-nav-button-background {
         filter: grayscale(1);
     }
 
     .home-nav-button-content .button-subtitle {
         font-size: 30px;
-            opacity: 0;
+        opacity: 0;
 
     }
-    
+
     aside .blockquote {
 
         font-size: 2em;
@@ -479,5 +536,27 @@ aside .blockquote {
         margin: 80;
 
     }
+
+
+    .secondary-page-card .card-header {
+        height: 300px;
+
+    }
+
+    .card-header .card-title {
+        font-size: 110px;
+    }
+
+    .card-header .card-subtitle {
+        font-size: 30px;
+        transform: translateY(-50%) /*overrides value of -70%)*/
+
+    }
+
+    .card-header .card-down-icon {
+        margin-top: 200px;
+
+    }
+
 
 }

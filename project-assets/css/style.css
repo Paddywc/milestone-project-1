@@ -181,7 +181,7 @@ main .row {
 }
 
 .attend-header-container {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
 
 }
 
@@ -565,15 +565,15 @@ input[type="date"]:before {
 
 .follow-youtube-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/youtube.png");
-    background-size:contain;
+    background-size: contain;
 
-    
+
 }
 
 
 .follow-all-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/all-background-car.jpg");
- 
+
 }
 
 
@@ -636,20 +636,46 @@ input[type="date"]:before {
 
 
 .all-card-instagram .btn {
-   background-color:  #8a3ab9 /*instagram purple*/
+    background-color: #8a3ab9/*instagram purple*/
 }
 
 .all-card-facebook .btn {
-   background-color:  	#3b5998 /*facebook dark blue*/
+    background-color: #3b5998/*facebook dark blue*/
 }
 
 .all-card-twitter .btn {
-   background-color:  #1DA1F2 /*Twitter light blue*/
+    background-color: #1DA1F2/*Twitter light blue*/
 }
 
 .all-card-youtube .btn {
-   background-color:  #FF0000 /*Youtube red*/
+    background-color: #FF0000/*Youtube red*/
 }
+
+
+
+
+
+
+
+
+
+/* ==========================================================================================>Attend */
+
+.gigs-card-body {
+    box-shadow: none;
+}
+
+.no-gigs-text {
+    text-align: center;
+}
+
+.gigs-region-title {
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -793,8 +819,14 @@ input[type="date"]:before {
         margin-bottom: 2%;
         /*adds space for nav arrow*/
     }
-    
-        
+
+
+    .gigs-table {
+        border-style: double;
+        border-color: #ffffff;
+        border-width: thick;
+    }
+
 
 
 
@@ -897,9 +929,16 @@ input[type="date"]:before {
         margin-bottom: 1%;
         /*adds space for nav arrow*/
     }
-    
+
     .all-card img {
-       height: 400px;
+        height: 400px;
+    }
+
+    .gigs-table {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
 

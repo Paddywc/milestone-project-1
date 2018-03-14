@@ -508,13 +508,13 @@ input[type="date"]:before {
 
 .listen-card .card-body {
     /*overrides previous effects*/
-box-shadow: none;
+    box-shadow: none;
 
 }
 
 .listen-card .listen-video-card {
     /*overrides previous effects*/
-box-shadow: none;
+    box-shadow: none;
 
 }
 
@@ -551,18 +551,31 @@ box-shadow: none;
 
 /*======================================================================================================Follow*/
 
-.follow-card  * {
-    box-shadow: none; /*removes box shadow for inner cards but not outer card*/
+.follow-card * {
+    box-shadow: none;
+    /*removes box shadow for inner cards but not outer card*/
 }
 
 .instagram-img {
     margin: 10px;
 }
 
+.instagram-buttons-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    /*adds space for nav arrow*/
+}
+
+
+
+
+
+
 
 .youtube-channel-card {
     text-align: center;
-        border-style: double;
+    border-style: double;
     border-color: #ffffff;
     border-width: thick;
 }
@@ -571,16 +584,43 @@ box-shadow: none;
     margin-top: 2%;
 }
 
-#ytplayer{ /*targets youtube video. Prevents overflow on smaller devices*/
-    max-width: 90% ;
+#ytplayer {
+    /*targets youtube video. Prevents overflow on smaller devices*/
+    max-width: 90%;
 }
 
 
 
 
+.all-card {
+    text-align: center;
+}
+
+.all-card img {
+    height: 300px;
+}
+
+.all-card a {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
+.all-card-instagram .btn {
+   background-color:  #8a3ab9 /*instagram purple*/
+}
 
+.all-card-facebook .btn {
+   background-color:  	#3b5998 /*facebook dark blue*/
+}
+
+.all-card-twitter .btn {
+   background-color:  #1DA1F2 /*Twitter light blue*/
+}
+
+.all-card-youtube .btn {
+   background-color:  #FF0000 /*Youtube red*/
+}
 
 
 
@@ -719,6 +759,14 @@ box-shadow: none;
         max-height: 400px;
     }
 
+    .instagram-buttons-wrapper {
+
+        margin-bottom: 2%;
+        /*adds space for nav arrow*/
+    }
+    
+        
+
 
 
 }
@@ -809,11 +857,21 @@ box-shadow: none;
         padding-left: 50px;
         padding-right: 50px;
     }
+
+
+    .instagram-img {
+        margin: 15px;
+    }
+
+    .instagram-buttons-wrapper {
+
+        margin-bottom: 1%;
+        /*adds space for nav arrow*/
+    }
     
-    
-.instagram-img {
-    margin: 15px;
-}
+    .all-card img {
+       height: 400px;
+    }
 
 
 

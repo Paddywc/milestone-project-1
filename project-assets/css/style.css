@@ -675,6 +675,18 @@ input[type="date"]:before {
 
 /* ==========================================================================================>Attend */
 
+.attend-gigs-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/gigs-car.jpg");
+
+}
+
+.attend-alerts-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/alerts-car-shorter.jpg");
+    background-position: top;
+
+}
+
+
 .gigs-card-body {
     box-shadow: none;
 }
@@ -714,6 +726,15 @@ input[type="date"]:before {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
 
 
 

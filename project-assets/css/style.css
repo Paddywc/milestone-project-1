@@ -551,6 +551,30 @@ input[type="date"]:before {
 
 /*======================================================================================================Follow*/
 
+.follow-instagram-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/instagram-background-car.jpg");
+
+
+}
+
+
+.follow-youtube-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/youtube.png");
+    background-size:contain;
+
+    
+}
+
+
+.follow-all-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/all-background-car.jpg");
+ 
+}
+
+
+
+
+
 .follow-card * {
     box-shadow: none;
     /*removes box shadow for inner cards but not outer card*/

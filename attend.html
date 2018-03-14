@@ -70,6 +70,11 @@
     <main>
         <section class="container-fluid secondary-page-body" id="down-to-content">
 
+
+
+            <!----------------------------------Gigs----------------------------------------->
+
+
             <div class="secondary-page-card attend-card attend-gigs-card">
                 <div class="card">
                     <div class="card-header">
@@ -239,7 +244,7 @@
                                             <h3 class="gigs-region-title">Europe:</h3>
 
                                             <div class="no-gigs-text">
-                                                <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#">alerts</a> </p>
+                                                <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#AlertsCard" class = "alerts-link" >alerts</a> </p>
                                             </div>
 
 
@@ -265,7 +270,7 @@
                                             <h3 class="gigs-region-title">Middle East and Africa:</h3>
 
                                             <div class="no-gigs-text">
-                                                <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your regions <a href="#">Alerts</a> </p>
+                                                <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#AlertsCard" class = "alerts-link" >alerts</a> </p>
                                             </div>
 
 
@@ -291,7 +296,7 @@
                                             <h3 class="gigs-region-title">East Asia Pacfic:</h3>
 
                                             <div class="no-gigs-text">
-                                                <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your regions <a href="#">Alerts</a> </p>
+                                                <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#AlertsCard" class = "alerts-link">alerts</a> </p>
                                             </div>
 
 
@@ -309,6 +314,58 @@
                             < </div>
                         </div>
                     </div>
+                </div>
+
+
+                <!----------------------------------Alerts--------------------------------------------->
+
+
+
+                <div class="secondary-page-card attend-card attend-alerts-card" id="AlertsCard">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Alerts</h3>
+                            <h4 class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                            <h5 class="mb-0 card-down-icon">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-attend-alerts" aria-expanded="true" aria-controls="collapseOne">
+          <a href="#main-navigation" class="nav-down"><i class="material-icons" id = "down-icon">keyboard_arrow_down</i></a>
+        </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapse-attend-alerts" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <form class="attend-form">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                            <select class="form-control">
+                                                <option class= "defualt-option">Select Region...</option>
+                                                <option>America</option>
+                                                 <option>Europe</option>
+                                                 <option>Middle East and Africa</option>
+                                                 <option>East Asia Pacfic</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-xs-12 col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" placeholder="Email">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
 
         </section>
     </main>

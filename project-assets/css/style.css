@@ -559,6 +559,32 @@ box-shadow: none;
     margin: 10px;
 }
 
+
+.youtube-channel-card {
+    text-align: center;
+        border-style: double;
+    border-color: #ffffff;
+    border-width: thick;
+}
+
+.youtube-button {
+    margin-top: 2%;
+}
+
+#ytplayer{ /*targets youtube video. Prevents overflow on smaller devices*/
+    max-width: 90% ;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================================>Nav button hover effects */
 
 .book-nav-button:hover .book-nav-button-background {

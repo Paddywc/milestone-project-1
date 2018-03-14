@@ -506,11 +506,22 @@ input[type="date"]:before {
     height: 80%;
 }
 
-.listen-card * {
+.listen-card .card-body {
     /*overrides previous effects*/
-    box-shadow: none;
+box-shadow: none;
 
 }
+
+.listen-card .listen-video-card {
+    /*overrides previous effects*/
+box-shadow: none;
+
+}
+
+.listen-card .collect-card {
+    box-shadow: none;
+}
+
 
 .audio-large-screen-table {
     display: none;

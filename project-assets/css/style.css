@@ -718,6 +718,11 @@ input[type="date"]:before {
     margin-bottom: 2%;
 }
 
+.attend-form .form-control {
+   margin-bottom: 10px;
+}
+
+
 .attend-form .defualt-option {
     color: #aaa 
 }

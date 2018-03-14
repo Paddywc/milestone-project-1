@@ -175,6 +175,11 @@ main .row {
 
 }
 
+.follow-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow.png");
+
+}
+
 /*======================================================================================================Home: Aside*/
 
 aside .blockquote {
@@ -533,8 +538,9 @@ input[type="date"]:before {
 
 
 
+/*======================================================================================================Follow*/
 
-
+.follow-header-container {}
 
 
 /* ==========================================================================================>Nav button hover effects */

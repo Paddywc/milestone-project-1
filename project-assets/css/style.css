@@ -725,12 +725,12 @@ input[type="date"]:before {
 }
 
 .attend-form .form-control {
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
 .attend-form .defualt-option {
-    color: #aaa 
+    color: #aaa
 }
 
 .attend-form button {
@@ -744,10 +744,31 @@ input[type="date"]:before {
 
 
 
-/*======================================================================================================Learns*/
+/*======================================================================================================Learn*/
 
 
 
+.learn-card-body {
+    box-shadow: none;
+}
+.learn-body-text {
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.learn-body-img {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 0;
+
+}
+
+.learn-source {
+     margin-left: 2%;
+    margin-right: 2%;
+}
 
 
 
@@ -909,6 +930,17 @@ input[type="date"]:before {
         border-color: #ffffff;
         border-width: thick;
     }
+    
+        
+.learn-body-text { /*Margin no longer needed as col-10*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.learn-source {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 
@@ -1023,6 +1055,14 @@ input[type="date"]:before {
         margin-right: auto;
 
     }
+    
+
+    
+    .learn-body-img {
+    margin-right: 1%;
+
+}
+
 
 
 

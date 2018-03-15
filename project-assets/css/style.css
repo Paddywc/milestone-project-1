@@ -746,11 +746,10 @@ input[type="date"]:before {
 
 /*======================================================================================================Learn*/
 
-
-
 .learn-card-body {
     box-shadow: none;
 }
+
 .learn-body-text {
     font-family: 'Patrick Hand', cursive;
     margin-left: 2%;
@@ -758,15 +757,29 @@ input[type="date"]:before {
 
 }
 
-.learn-body-img {
+.learn-body-img-left {
     float: left;
     margin-right: 2%;
     margin-bottom: 0;
+    max-width: 172px;
+    max-height: 135px;
+}
+
+
+.learn-body-img-right {
+
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 0;
+    max-width: 172px;
+    max-height: 135px;
+
+
 
 }
 
 .learn-source {
-     margin-left: 2%;
+    margin-left: 2%;
     margin-right: 2%;
 }
 
@@ -930,17 +943,35 @@ input[type="date"]:before {
         border-color: #ffffff;
         border-width: thick;
     }
-    
-        
-.learn-body-text { /*Margin no longer needed as col-10*/
-    margin-left: 0;
-    margin-right: 0;
-}
 
-.learn-source {
-    margin-left: 0;
-    margin-right: 0;
-}
+
+    .learn-body-text {
+        /*Margin no longer needed as col-10*/
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .learn-body-img-left {
+        max-width: 260px;
+        max-height: 200px;
+
+
+
+    }
+
+
+    .learn-body-img-right {
+        max-width: 260px;
+        max-height: 200px;
+
+
+
+    }
+
+    .learn-source {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 
 
@@ -1055,13 +1086,19 @@ input[type="date"]:before {
         margin-right: auto;
 
     }
-    
 
-    
-    .learn-body-img {
-    margin-right: 1%;
 
-}
+
+    .learn-body-img-left {
+        margin-right: 1%;
+
+
+    }
+
+    .learn-body-img-right {
+        margin-left: 1%;
+
+    }
 
 
 

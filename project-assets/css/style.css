@@ -746,6 +746,36 @@ input[type="date"]:before {
 
 /*======================================================================================================Learn*/
 
+
+
+.learn-band-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/band-background-car-shorter.jpg");
+
+
+}
+
+.learn-jones-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/davy-jones-background-car.jpg");
+
+}
+
+.learn-nesmith-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/michael-nesmithll-background-car.jpg");
+
+}
+
+.learn-dolenz-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/micky-dolenz-background-car.jpg");
+
+}
+
+.learn-tork-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/peter-tork-background-car.jpg");
+
+
+}
+
+
 .learn-card-body {
     box-shadow: none;
 }

@@ -460,7 +460,8 @@ input[type="date"]:before {
 }
 
 #input-event-details {
-    padding-bottom: 100px;
+    min-height: 100px;
+    width: 100%;
 }
 
 .quote-form button {
@@ -818,7 +819,7 @@ input[type="date"]:before {
 
 
 
-/*======================================================================================================Secondary page Cards*/
+/*======================================================================================================Contact*/
 
 .contact-body {
     background-color: #f4eff4;
@@ -830,8 +831,10 @@ input[type="date"]:before {
 
 
 
-#input-query-details {
-    padding-bottom: 100px;
+#input-query{
+    min-height: 100px;
+    width: 100%;
+    
 }
 
 .contact-form button {

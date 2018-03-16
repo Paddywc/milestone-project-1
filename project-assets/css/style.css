@@ -74,11 +74,6 @@ body {
     padding: 0;
 }
 
-main .row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
 
 
 /*======================================================================================================Header-General*/
@@ -107,7 +102,7 @@ main .row {
     font-family: "Kalligraphia LT Std", sans-serif;
     font-size: 60px;
     color: #F4F21A;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 
@@ -119,7 +114,7 @@ main .row {
     font-family: "Montserrat", sans-serif;
     color: #ff7777;
     /*light puruple*/
-    width: 100vw;
+    width: 100%;
     font-size: 12px;
     display: flex;
     justify-content: center;
@@ -234,6 +229,7 @@ aside .blockquote {
     position: relative;
     justify-content: center;
     width: 100%;
+    float: right;
 
 
 }
@@ -921,7 +917,7 @@ input[type="date"]:before {
 
 .main-footer .list-inline {
     margin-top: 20px;
-    max-width: 90vw;
+    max-width: 90%;
     
 }
 

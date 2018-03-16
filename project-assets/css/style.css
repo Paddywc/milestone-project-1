@@ -158,7 +158,8 @@ body {
     font-size: 40px;
     position: absolute;
     bottom: 0;
-    left: 45%;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 
@@ -851,7 +852,7 @@ input[type="date"]:before {
 }
 
 .main-footer .list-inline a {
-  
+
     color: #77243a;
 
 }
@@ -870,55 +871,53 @@ input[type="date"]:before {
 
 
 
-.social-icon-list{
+.social-icon-list {
     /*prevents margin extendeding past footer. Overridden on tablet devices*/
     margin-bottom: 0;
 
 }
 
-.social-icon-list li{
+.social-icon-list li {
     margin-left: 5%;
-    margin-right:5%;
+    margin-right: 5%;
 }
 
 
-.mobile-footer-row{
+.mobile-footer-row {
     margin-top: 20px;
     margin-bottom: 0;
 }
+
 .main-footer .dropup-col {
     /*ensures that dropup is aligned with social media icons*/
-    align-self:center;
+    align-self: center;
 }
 
-.instagram-footer-icon-wrapper i{
-     color: #8a3ab9/*instagram purple*/
+.instagram-footer-icon-wrapper i {
+    color: #8a3ab9/*instagram purple*/
 }
 
-.youtube-footer-icon-wrapper i{
-  color: #FF0000/*youtube red*/
-
+.youtube-footer-icon-wrapper i {
+    color: #FF0000/*youtube red*/
 }
 
-.twitter-footer-icon-wrapper i{
-      color: #1DA1F2/*twitter light blue*/
-
+.twitter-footer-icon-wrapper i {
+    color: #1DA1F2/*twitter light blue*/
 }
 
-.facebook-footer-icon-wrapper i{
+.facebook-footer-icon-wrapper i {
     color: #3b5998/*facebook dark blue*/
-
 }
 
 .dropup-link {
-    justify-content:center;
+    justify-content: center;
 }
 
 
 .main-footer .list-inline {
     margin-top: 20px;
     max-width: 90%;
-    
+
 }
 
 .main-footer .footer-text::before {
@@ -977,9 +976,9 @@ input[type="date"]:before {
 }
 
 
-.social-media-col{
+.social-media-col {
     /*aligns icons with rest of row*/
-    align-self:flex-end;
+    align-self: flex-end;
 }
 
 
@@ -1094,7 +1093,7 @@ input[type="date"]:before {
         /* Ensures subitle remains above the nav down arrow*/
     }
 
-  
+
 
     .card-header .card-down-icon i {
         /*targets icon itself*/
@@ -1245,7 +1244,7 @@ input[type="date"]:before {
         transform: translateY(-50%)/*overrides value of -70%)*/
     }
 
-  
+
 
     .audio-large-screen-table td {
         padding-left: 50px;
@@ -1279,11 +1278,11 @@ input[type="date"]:before {
         margin-right: auto;
 
     }
-    
-    
+
+
     .social-icon-list {
-        
-        margin-bottom: 16px; 
+
+        margin-bottom: 16px;
     }
 
 
@@ -1298,7 +1297,7 @@ input[type="date"]:before {
         margin-left: 1%;
 
     }
-    
+
 
 
     .hide-on-non-desktops {

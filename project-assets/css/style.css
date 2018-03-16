@@ -668,11 +668,11 @@ input[type="date"]:before {
 }
 
 .all-card-twitter .btn {
-    background-color: #1DA1F2/*Twitter light blue*/
+    background-color: #1DA1F2/*twitter light blue*/
 }
 
 .all-card-youtube .btn {
-    background-color: #FF0000/*Youtube red*/
+    background-color: #FF0000/*youtube red*/
 }
 
 
@@ -872,10 +872,7 @@ input[type="date"]:before {
 }
 
 
-.hide-on-non-desktops {
-    /*stops run on of longer words*/
-    visibility: hidden;
-}
+
 
 .social-icon-list{
     /*prevents margin extendeding past footer. Overridden on tablet devices*/
@@ -896,6 +893,25 @@ input[type="date"]:before {
 .main-footer .dropup-col {
     /*ensures that dropup is aligned with social media icons*/
     align-self:center;
+}
+
+.instagram-footer-icon-wrapper i{
+     color: #8a3ab9/*instagram purple*/
+}
+
+.youtube-footer-icon-wrapper i{
+  color: #FF0000/*youtube red*/
+
+}
+
+.twitter-footer-icon-wrapper i{
+      color: #1DA1F2/*twitter light blue*/
+
+}
+
+.facebook-footer-icon-wrapper i{
+    color: #3b5998/*facebook dark blue*/
+
 }
 
 .dropup-link {

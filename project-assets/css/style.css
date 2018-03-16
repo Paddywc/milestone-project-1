@@ -5,6 +5,7 @@
 @import url(//db.onlinewebfonts.com/c/6f647d2fb27f7ad2f727d5286bc1bed1?family=Quotes);
 @import url(//db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy);
 
+
 /* The Monkees album cover fonts*/
 
 @font-face {
@@ -50,6 +51,8 @@
     url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy") format("svg");
 }
+
+
 
 
 
@@ -394,11 +397,7 @@ aside .blockquote {
     text-align: center;
 }
 
-.card-header .card-down-icon {
-    text-align: center;
-    margin-top: 150px;
 
-}
 
 
 .card-body {
@@ -831,10 +830,10 @@ input[type="date"]:before {
 
 
 
-#input-query{
+#input-query {
     min-height: 100px;
     width: 100%;
-    
+
 }
 
 .contact-form button {
@@ -843,6 +842,129 @@ input[type="date"]:before {
 }
 
 
+/* ==========================================================================================>Footer*/
+
+.main-footer {
+    background-color: #895061;
+    height: 100px;
+}
+
+.main-footer .list-inline {
+    display: flex;
+
+}
+
+.main-footer .list-inline a {
+  
+    color: #77243a;
+
+}
+
+.main-footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Fixes bug where last list item dropped a row on smaller screens*/
+
+.main-footer .list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+
+.hide-on-non-desktops {
+    /*stops run on of longer words*/
+    visibility: hidden;
+}
+
+
+
+.main-footer .list-inline {
+    margin-top: 20px;
+    max-width: 90vw;
+}
+
+.main-footer .footer-text::before {
+    margin-right: 10px;
+}
+
+
+.footer-home .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f015";
+    /*home icon*/
+}
+
+.footer-book .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f14b";
+    /*pen-square icon*/
+}
+
+.footer-listen .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f025";
+    /*headphones icon*/
+}
+
+.footer-follow .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f004";
+    /*Follow icon*/
+}
+
+.footer-attend .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f073";
+    /*calendar-alt icon*/
+}
+
+.footer-learn .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f05a";
+    /*info-circle icon*/
+}
+
+.footer-contact .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    /*envelope icon*/
+}
+
+.footer-instagram .footer-text::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f16d";
+    /*instagram icon*/
+}
+
+.footer-youtube .footer-text::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f167";
+    /*youtube icon*/
+}
+
+.footer-twitter .footer-text::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f099";
+    /*twitter icon*/
+}
+
+.footer-facebook .footer-text::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f082";
+    /*facebook-square icon*/
+}
 
 
 
@@ -956,10 +1078,7 @@ input[type="date"]:before {
         /* Ensures subitle remains above the nav down arrow*/
     }
 
-    .card-header .card-down-icon {
-        margin-top: 100px;
-
-    }
+  
 
     .card-header .card-down-icon i {
         /*targets icon itself*/
@@ -1037,7 +1156,6 @@ input[type="date"]:before {
 
 
 
-
 }
 
 
@@ -1111,10 +1229,7 @@ input[type="date"]:before {
         transform: translateY(-50%)/*overrides value of -70%)*/
     }
 
-    .card-header .card-down-icon {
-        margin-top: 200px;
-
-    }
+  
 
     .audio-large-screen-table td {
         padding-left: 50px;
@@ -1161,6 +1276,15 @@ input[type="date"]:before {
         margin-left: 1%;
 
     }
+
+
+    .hide-on-non-desktops {
+        /*stops run on of longer words*/
+        visibility: visible;
+    }
+
+
+
 
 
 

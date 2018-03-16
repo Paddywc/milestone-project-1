@@ -131,10 +131,6 @@ body {
 }
 
 
-.return-home i {
-    font-size: 13px;
-
-}
 
 
 .return-home:hover {
@@ -142,10 +138,20 @@ body {
 }
 
 .return-home-wrapper {
-    transform: translateY(15vh);
+    transform: translateY(10vh);
     width: 100%;
     text-align: center;
+    
 }
+
+.return-home-wrapper a {
+ 
+   color: #ff7777;
+
+}
+
+
+
 
 .return-home-wrapper span::before {
     font-family: "Font Awesome 5 Free";

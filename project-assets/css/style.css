@@ -964,32 +964,10 @@ input[type="date"]:before {
     /*envelope icon*/
 }
 
-.footer-instagram .footer-text::before {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 900;
-    content: "\f16d";
-    /*instagram icon*/
-}
 
-.footer-youtube .footer-text::before {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 900;
-    content: "\f167";
-    /*youtube icon*/
-}
-
-.footer-twitter .footer-text::before {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 900;
-    content: "\f099";
-    /*twitter icon*/
-}
-
-.footer-facebook .footer-text::before {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 900;
-    content: "\f082";
-    /*facebook-square icon*/
+.social-media-col{
+    /*aligns icons with rest of row*/
+    align-self:flex-end;
 }
 
 

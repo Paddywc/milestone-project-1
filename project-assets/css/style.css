@@ -207,6 +207,7 @@ body {
 
 .follow-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow.png");
+    background-size:cover;
 
 }
 
@@ -730,15 +731,19 @@ input[type="date"]:before {
 }
 
 .all-card-facebook .btn {
-    background-color: #3b5998/*facebook dark blue*/
+    background-color: #3b5998;/*facebook dark blue*/
+     border-color: #3b5998;
 }
 
 .all-card-twitter .btn {
-    background-color: #1DA1F2/*twitter light blue*/
+    background-color: #1DA1F2;/*twitter light blue*/
+    border-color: #1DA1F2;
 }
 
 .all-card-youtube .btn {
-    background-color: #FF0000/*youtube red*/
+    background-color: #FF0000;/*youtube red*/
+    border-color: #FF0000;
+    
 }
 
 
@@ -1247,6 +1252,12 @@ font-size: 1.5em;
     .listen-card-body img {
         max-height: 400px;
     }
+    
+    
+.follow-header-container {
+    background-size:100% 100%;
+
+}
 
     .instagram-buttons-wrapper {
 

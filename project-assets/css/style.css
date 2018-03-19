@@ -546,6 +546,17 @@ input[type="date"]:before {
     margin-right: 1%;
 }
 
+
+.listen-card .nav-tabs a { /*targets auido/video tabs*/
+    color:#F4F21A;
+    font-weight: 700;
+}
+
+.audio-small-screen-table audio {
+    /*fixes overun on mobile*/
+    max-width:250px;
+}
+
 .video-col {
     width: 100%;
 }
@@ -572,6 +583,7 @@ input[type="date"]:before {
 .listen-card .card-body {
     /*overrides previous effects*/
     box-shadow: none;
+    margin-bottom: 10%;
 
 }
 
@@ -591,15 +603,18 @@ input[type="date"]:before {
 }
 
 
-.listen-card-collect {
+.listen-collect-card .card-body {
     text-align: center;
+    margin-bottom: 2%;
 }
 
-.listen-card-collect img {
+.listen-card-collect-body img {
     max-height: 300px;
+    max-width: 350px;
+    align-self:center;
 }
 
-.listen-card-collect a {
+.listen-card-collect-body a {
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -697,7 +712,7 @@ input[type="date"]:before {
 }
 
 .all-card img {
-    height: 30vh;
+    height: 40vh;
 }
 
 .all-card a {
@@ -707,7 +722,8 @@ input[type="date"]:before {
 
 
 .all-card-instagram .btn {
-    background-color: #8a3ab9/*instagram purple*/
+    background-color: #8a3ab9;/*instagram purple*/
+    border-color: #8a3ab9;
 }
 
 .all-card-facebook .btn {
@@ -753,8 +769,11 @@ input[type="date"]:before {
     text-align: center;
     font-family: "Kalligraphia LT Std", sans-serif;
     color: #F4F21A;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 300;
+    
+    /*overidden on larger devices*/
+    display: none;
 }
 
 
@@ -766,6 +785,15 @@ input[type="date"]:before {
 .gigs-table {
     font-family: "Noteworthy", sans-serif;
 
+}
+
+.gigs-table .btn {
+    font-family: initial; /*overides above to retain bootstrap font*/
+}
+
+.attend-card .nav-tabs a { /*targets auido/video tabs*/
+    color:#F4F21A;
+    font-weight: 700;
 }
 
 
@@ -951,9 +979,9 @@ input[type="date"]:before {
 
 
 .instagram-footer-icon-wrapper i {
-    color: #8a3ab9;
-    /*instagram purple*/
-    font-size: 1.5em;
+    color: #ffffff;
+/*White. instagram purple is poorly visable on purple footer background*/
+font-size: 1.5em;
     margin-left: 0;
     /*alligns content with dropup menu on mobile*/
 }
@@ -1191,6 +1219,17 @@ input[type="date"]:before {
 }
 
 
+.listen-card .card-body {
+    /*overrides previous effects*/
+    box-shadow: none;
+    margin-bottom: 5%;
+
+}
+
+.listen-collect-card .listen-card-collect-body {
+    margin-bottom: 0;
+}
+
     .audio-small-screen-table {
         display: none;
         font-size: 0.5em;
@@ -1202,7 +1241,7 @@ input[type="date"]:before {
         display: block;
     }
 
-    .listen-card-collect img {
+    .listen-card-body img {
         max-height: 400px;
     }
 
@@ -1214,7 +1253,11 @@ input[type="date"]:before {
 
 
     .all-card img {
-        height: 10vh;
+        height: 15vh;
+    }
+    
+   .follow-all-card .card-body{
+        margin-bottom: 2%;
     }
 
 
@@ -1225,7 +1268,7 @@ input[type="date"]:before {
 
 
     .gigs-region-title {
-        font-size: 3em;
+        display: inline;
     }
 
 
@@ -1263,6 +1306,10 @@ input[type="date"]:before {
     .learn-source {
         margin-left: 0;
         margin-right: 0;
+    }
+    
+    .main-footer .list-inline {
+    margin-top: 10px;
     }
 
 
@@ -1365,7 +1412,7 @@ input[type="date"]:before {
     }
 
     .all-card img {
-        height: 30vh;
+        height: 40vh;
     }
 
     .gigs-table {
@@ -1393,16 +1440,10 @@ input[type="date"]:before {
         margin-left: 1%;
 
     }
-
-
-
-    .hide-on-non-desktops {
-        /*stops run on of longer words*/
-        visibility: visible;
-    }
-
-
-
+    
+    .main-footer .list-inline {
+    margin-top: 20px;
+}
 
 
 }

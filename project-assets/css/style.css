@@ -89,7 +89,7 @@ body {
 }
 
 
-.row {
+header.home-header-container .row {
     /*Fixes bug where header content was not properly centered*/
     margin-left: 0;
     margin-right: 0;
@@ -629,7 +629,7 @@ input[type="date"]:before {
 .instagram-buttons-wrapper {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     /*adds space for nav arrow*/
 }
 
@@ -874,7 +874,7 @@ input[type="date"]:before {
 
 .main-footer .list-inline a {
 
-    color: #77243a;
+    color: #CDA2AF;
 
 }
 

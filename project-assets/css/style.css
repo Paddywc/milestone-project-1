@@ -261,6 +261,9 @@ aside .blockquote {
     height: 100%;
     width: 100%;
     transition: filter 1s ease-in-out;
+     -moz-transition: filter 1s ease-in-out;
+    -webkit-transition: filter 1s ease-in-out;
+    -o-transition: all filter 1s ease-in-out;
 
 
 }
@@ -284,7 +287,9 @@ aside .blockquote {
     font-size: 50px;
     letter-spacing: 5px;
     transition: opacity 1s ease-in-out;
-
+ -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
 
 }
 
@@ -442,13 +447,13 @@ aside .blockquote {
 
 
 .book-media-card .card-body img {
-    max-height: 600px;
+    height: 300px;
     /*Overides defualt bootstrap value where img is 100vh*/
 }
 
 .book-media-card .card-body iframe {
     /*targets youtube videos in carousel*/
-    height: 600px;
+    height: 300px;
     /*Should = max-height of img above*/
     width: 100%;
 }
@@ -1174,6 +1179,17 @@ input[type="date"]:before {
         /*targets icon itself*/
         margin-bottom: -15px;
     }
+    
+    .book-media-card .card-body img {
+    height: 500px;
+}
+
+.book-media-card .card-body iframe {
+    /*targets youtube videos in carousel*/
+    height: 500px;
+    /*Should = max-height of img above*/
+}
+
 
     .audio-small-screen-table {
         display: none;

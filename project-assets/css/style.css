@@ -464,6 +464,12 @@ aside .blockquote {
     width: 40%;
 }
 
+.quote-form {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
 
 input[type="date"]:before {
     /*Ensures "event date:" placeholder is seen in date form box*/
@@ -476,6 +482,7 @@ input[type="date"]:before {
     min-height: 100px;
     width: 100%;
 }
+
 
 .quote-form button {
     margin-left: auto;
@@ -751,6 +758,11 @@ input[type="date"]:before {
     margin-bottom: 2%;
 }
 
+.attend-form {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .attend-form .form-control {
     margin-bottom: 10px;
 }
@@ -848,7 +860,7 @@ input[type="date"]:before {
 }
 
 .contact-form {
-    padding: 5%;
+    padding: 5% 10%;
 }
 
 

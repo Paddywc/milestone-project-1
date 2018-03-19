@@ -173,6 +173,8 @@ body {
     bottom: 0;
     left: 50%;
     transform: translatex(-50%);
+    opacity: 0;
+    animation: arrow-appear ease-in-out forwards 3s;
 }
 
 
@@ -1328,6 +1330,20 @@ input[type="date"]:before {
 
 
 
-
-
 }
+
+
+
+
+/*======================================================================================================Animations*/
+
+
+@keyframes arrow-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

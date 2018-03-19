@@ -528,6 +528,10 @@ input[type="date"]:before {
     text-align: center !important;
 }
 
+.nav-tabs {
+    justify-content: center;
+}
+
 .toggle-buttons-wrapper button {
     margin-left: 1%;
     margin-right: 1%;
@@ -537,7 +541,7 @@ input[type="date"]:before {
     width: 100%;
 }
 
-.audio-col {
+.listen-card-audio{
     width: 100%;
     font-family: "Noteworthy", sans-serif;
 

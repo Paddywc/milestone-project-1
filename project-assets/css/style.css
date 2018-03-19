@@ -126,7 +126,7 @@ body {
 
 /*Keeps content as part of flow*/
 
-.hide-on-home {
+.keep-but-make-invisible {
     visibility: hidden;
 }
 
@@ -631,6 +631,11 @@ input[type="date"]:before {
     /*adds space for nav arrow*/
 }
 
+
+.instagram-buttons-wrapper a /*targets buttons*/ {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 

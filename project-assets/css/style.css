@@ -123,6 +123,7 @@ body {
     text-align: center;
     font-weight: 700;
     line-height: 1.5em;
+    text-transform: capitalize;
 }
 
 /*Keeps content as part of flow*/
@@ -296,6 +297,8 @@ aside .blockquote {
     text-decoration: none;
     transform: translateY(-50%);
     padding-top: 50px;
+    text-transform: capitalize;
+
 
 
 }
@@ -408,6 +411,8 @@ aside .blockquote {
     font-size: 15px;
     padding-top: 50px;
     text-align: center;
+    text-transform: capitalize;
+
 }
 
 
@@ -540,7 +545,7 @@ input[type="date"]:before {
     width: 100%;
 }
 
-.listen-card-audio{
+.listen-card-audio {
     width: 100%;
     font-family: "Noteworthy", sans-serif;
 
@@ -682,7 +687,7 @@ input[type="date"]:before {
     text-align: center;
 }
 
-.follow-card-all{
+.follow-card-all {
     margin-bottom: 3%;
 }
 
@@ -934,8 +939,8 @@ input[type="date"]:before {
 }
 
 .main-footer .dropup-col {
-     /*alligns content with social media row  on mobile*/
-     padding-left: 7%;
+    /*alligns content with social media row  on mobile*/
+    padding-left: 7%;
 }
 
 
@@ -944,8 +949,8 @@ input[type="date"]:before {
     color: #8a3ab9;
     /*instagram purple*/
     font-size: 1.5em;
-    margin-left: 0; /*alligns content with dropup menu on mobile*/
-
+    margin-left: 0;
+    /*alligns content with dropup menu on mobile*/
 }
 
 .youtube-footer-icon-wrapper i {
@@ -998,7 +1003,7 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f14b";
-    width:50%;
+    width: 50%;
     /*pen-square icon*/
 }
 
@@ -1006,7 +1011,7 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f025";
-        width:50%;
+    width: 50%;
 
     /*headphones icon*/
 }
@@ -1015,7 +1020,7 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f004";
-        width:50%;
+    width: 50%;
 
     /*Follow icon*/
 }
@@ -1024,7 +1029,7 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f073";
-        width:50%;
+    width: 50%;
 
     /*calendar-alt icon*/
 }
@@ -1033,7 +1038,7 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f05a";
-        width:50%;
+    width: 50%;
 
     /*info-circle icon*/
 }
@@ -1190,11 +1195,11 @@ input[type="date"]:before {
         margin-bottom: 2%;
         /*adds space for nav arrow*/
     }
-    
-    
-.all-card img {
-    height: 10vh;
-}
+
+
+    .all-card img {
+        height: 10vh;
+    }
 
 
     .attend-gigs-card .toggle-buttons-wrapper button {

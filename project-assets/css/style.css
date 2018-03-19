@@ -191,7 +191,7 @@ body {
 /*======================================================================================================Header-backgrounds*/
 
 .home-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/The_Monkees-1966-BW-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/mobile-main-header-car.jpg");
     /*Filters image with transparent black*/
 }
 
@@ -201,6 +201,7 @@ body {
 
 .listen-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car.jpg");
+    background-size: cover;
 
 }
 
@@ -211,11 +212,13 @@ body {
 
 .attend-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-size:cover;
 
 }
 
 .learn-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-2.jpg");
+    background-size:cover;
 }
 
 .contact-header-container {
@@ -520,7 +523,7 @@ input[type="date"]:before {
 
 .listen-collect-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/collect-2-car.jpg");
-    background-position: top;
+    background-position: center;
 }
 
 

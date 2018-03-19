@@ -938,6 +938,8 @@ input[type="date"]:before {
      padding-left: 7%;
 }
 
+
+
 .instagram-footer-icon-wrapper i {
     color: #8a3ab9;
     /*instagram purple*/
@@ -996,6 +998,7 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f14b";
+    width:50%;
     /*pen-square icon*/
 }
 
@@ -1003,6 +1006,8 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f025";
+        width:50%;
+
     /*headphones icon*/
 }
 
@@ -1010,6 +1015,8 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f004";
+        width:50%;
+
     /*Follow icon*/
 }
 
@@ -1017,6 +1024,8 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f073";
+        width:50%;
+
     /*calendar-alt icon*/
 }
 
@@ -1024,6 +1033,8 @@ input[type="date"]:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f05a";
+        width:50%;
+
     /*info-circle icon*/
 }
 

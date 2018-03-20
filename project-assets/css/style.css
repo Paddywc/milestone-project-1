@@ -1,0 +1,1477 @@
+/*======================================================================================================Imports*/
+
+@import url(//db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std);
+@import url(//db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo);
+@import url(//db.onlinewebfonts.com/c/6f647d2fb27f7ad2f727d5286bc1bed1?family=Quotes);
+@import url(//db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy);
+
+
+/* The Monkees album cover fonts*/
+
+@font-face {
+    font-family: "Kalligraphia LT Std";
+    src: url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.eot");
+    src: url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.svg#Kalligraphia LT Std") format("svg");
+}
+
+@font-face {
+    font-family: "Hobo";
+    src: url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.eot");
+    src: url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.svg#Hobo") format("svg");
+}
+
+/*font for quotes*/
+
+@font-face {
+    font-family: "Quotes";
+    src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot");
+    src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.svg#Quotes") format("svg");
+}
+
+/*Other fonts*/
+
+@font-face {
+    font-family: "Noteworthy";
+    src: url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot");
+    src: url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy") format("svg");
+}
+
+
+
+
+
+
+
+/*======================================================================================================Colors*/
+
+body {
+    background-color: #404040;
+    /*Grayish black*/
+}
+
+/*======================================================================================================General*/
+
+/*nav buttons will now take up fill screen width*/
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    /*Fixes bug where header content was not properly centered. Requied for all rows*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+/*======================================================================================================Header-General*/
+
+.header-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.header-title {
+    font-family: "Kalligraphia LT Std", sans-serif;
+    font-size: 60px;
+    color: #F4F21A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.header-subtitle {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFB7;
+    /*light puruple*/
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+
+/*Keeps content as part of flow*/
+
+.keep-but-make-invisible {
+    visibility: hidden;
+}
+
+
+
+
+.return-home:hover {
+    text-decoration: none;
+}
+
+.return-home-wrapper {
+    transform: translateY(10vh);
+    width: 100%;
+    text-align: center;
+
+}
+
+.return-home-wrapper a {
+
+    color: #FFFFB7;
+
+}
+
+
+
+
+.return-home-wrapper span::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f015";
+}
+
+.return-home {
+    font-size: 13px;
+
+}
+
+
+
+#down-icon {
+    color: #E3E241;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    opacity: 0;
+    animation: arrow-appear ease-in-out forwards 3s;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================================================================================================Header-backgrounds*/
+
+.home-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/mobile-main-header-car.jpg");
+    /*Filters image with transparent black*/
+}
+
+.book-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car.jpg");
+}
+
+.listen-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car.jpg");
+    background-size: cover;
+
+}
+
+.follow-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow.png");
+    background-size:cover;
+
+}
+
+.attend-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-size:cover;
+
+}
+
+.learn-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-2.jpg");
+    background-size:cover;
+}
+
+.contact-header-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
+}
+
+/*======================================================================================================Home: Aside*/
+
+aside .blockquote {
+    padding-top: 200px;
+    margin: 60px;
+    font-family: "quotes", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #f4eff4;
+
+}
+
+
+/*======================================================================================================Home: Main Nav Buttons*/
+
+.home-nav-button {
+    box-shadow: -13px 9px 12px 6px rgba(0, 0, 0, 0.75);
+    height: 200px;
+    display: flex;
+    margin: 1% 0;
+    /*adds space between buttons and for horizontal shadow*/
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    float: right;
+
+
+}
+
+
+.home-nav-button-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: filter 1s ease-in-out;
+     -moz-transition: filter 1s ease-in-out;
+    -webkit-transition: filter 1s ease-in-out;
+    -o-transition: all filter 1s ease-in-out;
+
+
+}
+
+
+.home-nav-button-content {
+    text-align: center;
+    position: relative;
+    transform: translateY(15%);
+    /*stops overflow on smaller devices:;*/
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.home-nav-button-content .button-title {
+    font-family: "hobo", sans-serif;
+
+    color: #F4F21A;
+    z-index: 10;
+    font-size: 50px;
+    letter-spacing: 5px;
+    transition: opacity 1s ease-in-out;
+ -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+
+}
+
+.home-nav-button-content .button-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #FFFFB7;
+    font-size: 15px;
+    transition: opacity 1s ease-in-out;
+    text-decoration: none;
+    transform: translateY(-50%);
+    padding-top: 50px;
+    text-transform: capitalize;
+
+
+
+}
+
+.home-nav-button a {
+    /*Center allign and justfies content within main nav buttons*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*prevents text decoration on hover*/
+    text-decoration: none;
+}
+
+
+
+/*======================================================================================================Home: Background images for main nav buttons*/
+
+.book-nav-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car-shorter.jpg");
+}
+
+.listen-nav-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car-shorter.jpg");
+
+}
+
+
+.follow-nav-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow-shorter.png");
+    background-position: top;
+}
+
+.attend-nav-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-position: bottom;
+}
+
+.learn-nav-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-shorter.jpg");
+    background-position: top;
+}
+
+.contact-nav-button-background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
+    background-position: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================================================================================Secondary page*/
+
+.secondary-page-body {
+    width: 95%;
+    margin: auto;
+}
+
+
+/*======================================================================================================Secondary page Cards*/
+
+.card {
+    border: none;
+    margin: 1% 0;
+    box-shadow: -13px 9px 12px 6px rgba(0, 0, 0, 0.75);
+    background-color: #f4eff4;
+
+
+}
+
+
+
+.secondary-page-card .card-header {
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-header .card-title {
+    position: relative;
+    transform: translateY(50%);
+    width: 100%;
+    text-align: center;
+    font-family: "hobo", sans-serif;
+    color: #F4F21A;
+    font-size: 40px;
+    left: 0;
+    letter-spacing: 5px;
+
+}
+
+.card-header .card-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #FFFFB7;
+    font-size: 15px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+
+
+
+.card-body {
+    margin-bottom: 5%;
+    /*Creates space so nav-down icon is visable*/
+}
+
+
+
+/*======================================================================================================Book*/
+
+.book-media-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
+    background-position: top;
+
+}
+
+.quote-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/quote-car.jpg");
+
+
+}
+
+
+
+.book-media-card .card-body img {
+    height: 300px;
+    /*Overides defualt bootstrap value where img is 100vh*/
+}
+
+.book-media-card .card-body iframe {
+    /*targets youtube videos in carousel*/
+    height: 300px;
+    /*Should = max-height of img above*/
+    width: 100%;
+}
+
+
+.carousel-control-next-icon {
+    /*should be visable against both light and dark backgrounds*/
+    background-image: url("https://openclipart.org/download/14873/mystica-Arrow-set-Bulb-3.svg");
+    /*light blue, cartoonish*/
+    height: 40%;
+    width: 40%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://openclipart.org/download/14874/mystica-Arrow-set-Bulb-4.svg");
+    height: 40%;
+    width: 40%;
+}
+
+.quote-form {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+input[type="date"]:before {
+    /*Ensures "event date:" placeholder is seen in date form box*/
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+}
+
+#input-event-details {
+    min-height: 100px;
+    width: 100%;
+}
+
+
+.quote-form button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==========================================================================================>Listen*/
+
+.listen-classics-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/classics-car-shorter.jpg");
+    background-position: top;
+}
+
+
+.listen-latest-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/latest-car-shorter.jpg");
+    background-position: top;
+}
+
+
+.listen-discover-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/discover-car-shorter.jpg");
+    background-position: top;
+}
+
+
+.listen-collect-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/collect-2-car.jpg");
+    background-position: center;
+}
+
+
+.listen-subscribe-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/subscribe-3.png");
+
+}
+
+
+
+
+
+.card-body .toggle-buttons-wrapper {
+    text-align: center !important;
+}
+
+.nav-tabs {
+    justify-content: center;
+}
+
+.toggle-buttons-wrapper button {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.listen-card .nav-tabs a { /*targets auido/video tabs*/
+    color:#F4F21A;
+    font-weight: 700;
+}
+
+.audio-small-screen-table audio {
+    /*fixes overun on mobile*/
+    max-width:250px;
+}
+
+.video-col {
+    width: 100%;
+}
+
+.listen-card-audio {
+    width: 100%;
+    font-family: "Noteworthy", sans-serif;
+
+}
+
+.listen-video-card .card-body {
+    text-align: center;
+    border-style: double;
+    border-color: #ffffff;
+    border-width: thick;
+}
+
+.listen-card-video iframe {
+    /*targets youtube video*/
+    width: 80%;
+    height: 80%;
+}
+
+.listen-card .card-body {
+    /*overrides previous effects*/
+    box-shadow: none;
+    margin-bottom: 10%;
+
+}
+
+.listen-card .listen-video-card {
+    /*overrides previous effects*/
+    box-shadow: none;
+
+}
+
+.listen-card .collect-card {
+    box-shadow: none;
+}
+
+
+.audio-large-screen-table {
+    display: none;
+}
+
+
+.listen-collect-card .card-body {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.listen-card-collect-body img {
+    max-height: 300px;
+    max-width: 350px;
+    align-self:center;
+}
+
+.listen-card-collect-body a {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.listen-form button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/*======================================================================================================Follow*/
+
+.follow-instagram-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/instagram-background-2-car.jpg");
+
+
+}
+
+
+.follow-youtube-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/youtube.png");
+    background-size: contain;
+
+
+}
+
+
+.follow-all-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/all-background-car.jpg");
+
+
+}
+
+
+
+
+
+.follow-card * {
+    box-shadow: none;
+    /*removes box shadow for inner cards but not outer card*/
+}
+
+.instagram-img {
+    margin: 10px;
+}
+
+.instagram-buttons-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    /*adds space for nav arrow*/
+}
+
+
+.instagram-buttons-wrapper a
+/*targets buttons*/
+
+    {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.youtube-channel-card {
+    text-align: center;
+    border-style: double;
+    border-color: #ffffff;
+    border-width: thick;
+}
+
+.youtube-button {
+    margin-top: 2%;
+}
+
+#ytplayer {
+    /*targets youtube video. Prevents overflow on smaller devices*/
+    max-width: 90%;
+}
+
+
+
+
+.all-card {
+    text-align: center;
+}
+
+.follow-card-all {
+    margin-bottom: 3%;
+}
+
+.all-card img {
+    height: 40vh;
+}
+
+.all-card a {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.all-card-instagram .btn {
+    background-color: #8a3ab9;/*instagram purple*/
+    border-color: #8a3ab9;
+}
+
+.all-card-facebook .btn {
+    background-color: #3b5998;/*facebook dark blue*/
+     border-color: #3b5998;
+}
+
+.all-card-twitter .btn {
+    background-color: #1DA1F2;/*twitter light blue*/
+    border-color: #1DA1F2;
+}
+
+.all-card-youtube .btn {
+    background-color: #FF0000;/*youtube red*/
+    border-color: #FF0000;
+    
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================================>Attend */
+
+.attend-gigs-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/gigs-car.jpg");
+
+}
+
+.attend-alerts-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/alerts-car-shorter.jpg");
+    background-position: top;
+
+}
+
+
+.gigs-card-body {
+    box-shadow: none;
+}
+
+
+.gigs-region-title {
+    text-align: center;
+    font-family: "Kalligraphia LT Std", sans-serif;
+    color: #F4F21A;
+    font-size: 3em;
+    font-weight: 300;
+    
+    /*overidden on larger devices*/
+    display: none;
+}
+
+
+
+.no-gigs-text {
+    text-align: center;
+}
+
+.gigs-table {
+    font-family: "Noteworthy", sans-serif;
+
+}
+
+.gigs-table .btn {
+    font-family: initial; /*overides above to retain bootstrap font*/
+}
+
+.attend-card .nav-tabs a { /*targets auido/video tabs*/
+    color:#F4F21A;
+    font-weight: 700;
+}
+
+
+.attend-gigs-card .toggle-buttons-wrapper button {
+    /*Creates space when stacked on smaller devices. Removed on larger devices*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.attend-form {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.attend-form .form-control {
+    margin-bottom: 10px;
+}
+
+
+.attend-form .defualt-option {
+    color: #aaa
+}
+
+.attend-form button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+/*======================================================================================================Learn*/
+
+.learn-band-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/band-background-car-shorter.jpg");
+
+
+}
+
+.learn-jones-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/davy-jones-background-car.jpg");
+
+}
+
+.learn-nesmith-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/michael-nesmithll-background-car.jpg");
+
+}
+
+.learn-dolenz-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/micky-dolenz-background-car.jpg");
+
+}
+
+.learn-tork-card .card-header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/peter-tork-background-car.jpg");
+
+
+}
+
+
+.learn-card-body {
+    box-shadow: none;
+}
+
+.learn-body-text {
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.learn-body-img-left {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 0;
+    max-width: 172px;
+    max-height: 135px;
+}
+
+
+.learn-body-img-right {
+
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 0;
+    max-width: 172px;
+    max-height: 135px;
+
+
+
+}
+
+.learn-source {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+
+/*======================================================================================================Contact*/
+
+.contact-body {
+    background-color: #f4eff4;
+}
+
+.contact-form {
+    padding: 5% 10%;
+}
+
+
+
+#input-query {
+    min-height: 100px;
+    width: 100%;
+
+}
+
+.contact-form button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ==========================================================================================>Footer*/
+
+.main-footer {
+    background-color: #895061;
+    height: 100px;
+}
+
+.main-footer .list-inline {
+    display: flex;
+
+}
+
+.main-footer .list-inline a {
+
+    color: #CDA2AF;
+
+}
+
+.main-footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Fixes bug where last list item dropped a row on smaller screens*/
+
+.main-footer .list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+
+
+
+.social-icon-list {
+    /*prevents margin extendeding past footer. Overridden on tablet devices*/
+    margin-bottom: 0;
+
+}
+
+.social-icon-list li {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.mobile-footer-row {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.main-footer .dropup-col {
+    /*alligns content with social media row  on mobile*/
+    padding-left: 7%;
+}
+
+
+
+.instagram-footer-icon-wrapper i {
+    color: #ffffff;
+/*White. instagram purple is poorly visable on purple footer background*/
+font-size: 1.5em;
+    margin-left: 0;
+    /*alligns content with dropup menu on mobile*/
+}
+
+.youtube-footer-icon-wrapper i {
+    color: #FF0000;
+    /*youtube red*/
+    font-size: 1.5em;
+
+}
+
+.twitter-footer-icon-wrapper i {
+    color: #1DA1F2;
+    /*twitter light blue*/
+    font-size: 1.5em;
+
+}
+
+.facebook-footer-icon-wrapper i {
+    color: #3b5998;
+    /*facebook dark blue*/
+    font-size: 1.5em;
+
+}
+
+.dropup-link {
+    justify-content: center;
+}
+
+
+.main-footer .list-inline {
+    margin-top: 20px;
+    max-width: 90%;
+
+}
+
+.main-footer .footer-text::before {
+    padding-left: 5px;
+    margin-right: 10px;
+
+}
+
+
+.footer-home .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f015";
+    /*home icon*/
+}
+
+.footer-book .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f14b";
+    width: 50%;
+    /*pen-square icon*/
+}
+
+.footer-listen .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f025";
+    width: 50%;
+
+    /*headphones icon*/
+}
+
+.footer-follow .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f004";
+    width: 50%;
+
+    /*Follow icon*/
+}
+
+.footer-attend .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f073";
+    width: 50%;
+
+    /*calendar-alt icon*/
+}
+
+.footer-learn .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f05a";
+    width: 50%;
+
+    /*info-circle icon*/
+}
+
+.footer-contact .footer-text::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    /*envelope icon*/
+}
+
+
+.social-media-col {
+    /*aligns icons with rest of row*/
+    align-self: flex-end;
+}
+
+
+
+
+/* ==========================================================================================>Nav button hover effects */
+
+.book-nav-button:hover .book-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.book-nav-button:hover .book-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+.listen-nav-button:hover .listen-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.listen-nav-button:hover .listen-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+.follow-nav-button:hover .follow-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.follow-nav-button:hover .follow-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+.attend-nav-button:hover .attend-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.attend-nav-button:hover .attend-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+.learn-nav-button:hover .learn-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.learn-nav-button:hover .learn-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+.contact-nav-button:hover .contact-nav-button-background {
+    filter: grayscale(0%);
+}
+
+.contact-nav-button:hover .contact-nav-button-content .button-subtitle {
+    opacity: 100;
+}
+
+
+
+/*======================================================================================================Responsive*/
+
+@media(min-width:750px) {
+
+    .header-title {
+        font-size: 120px;
+    }
+
+    .header-subtitle {
+        font-size: 25px;
+    }
+
+
+    #down-icon {
+        font-size: 80px;
+
+    }
+
+    .return-home {
+        font-size: 27px;
+    }
+
+
+    .return-home i {
+        font-size: 27px;
+    }
+
+
+
+    .home-nav-button-content .button-title {
+        font-size: 100px;
+        letter-spacing: 10px;
+
+    }
+
+
+    .home-nav-button-content .button-subtitle {
+        font-size: 20px;
+
+    }
+
+
+    .card-header .card-title {
+        font-size: 80px;
+        transform: translateY(5%);
+        /*overrides valye of 50% to increase breathing space from new subtitle position*/
+    }
+
+    .card-header .card-subtitle {
+        font-size: 20px;
+        transform: translateY(-80%);
+        /* Ensures subitle remains above the nav down arrow*/
+    }
+
+
+
+    .card-header .card-down-icon i {
+        /*targets icon itself*/
+        margin-bottom: -15px;
+    }
+    
+    .book-media-card .card-body img {
+    height: 500px;
+}
+
+.book-media-card .card-body iframe {
+    /*targets youtube videos in carousel*/
+    height: 500px;
+    /*Should = max-height of img above*/
+}
+
+
+.listen-card .card-body {
+    /*overrides previous effects*/
+    box-shadow: none;
+    margin-bottom: 5%;
+
+}
+
+.listen-collect-card .listen-card-collect-body {
+    margin-bottom: 0;
+}
+
+    .audio-small-screen-table {
+        display: none;
+        font-size: 0.5em;
+
+    }
+
+    .audio-large-screen-table {
+        /*overrides display:none*/
+        display: block;
+    }
+
+    .listen-card-body img {
+        max-height: 400px;
+    }
+    
+    
+.follow-header-container {
+    background-size:100% 100%;
+
+}
+
+    .instagram-buttons-wrapper {
+
+        margin-bottom: 2%;
+        /*adds space for nav arrow*/
+    }
+
+
+    .all-card img {
+        height: 15vh;
+    }
+    
+   .follow-all-card .card-body{
+        margin-bottom: 2%;
+    }
+
+
+    .attend-gigs-card .toggle-buttons-wrapper button {
+        margin-top: 0;
+        margin-bottom: 0%;
+    }
+
+
+    .gigs-region-title {
+        display: inline;
+    }
+
+
+
+    .gigs-table {
+        border-style: double;
+        border-color: #ffffff;
+        border-width: thick;
+    }
+
+
+    .learn-body-text {
+        /*Margin no longer needed as col-10*/
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .learn-body-img-left {
+        max-width: 260px;
+        max-height: 200px;
+
+
+
+    }
+
+
+    .learn-body-img-right {
+        max-width: 260px;
+        max-height: 200px;
+
+
+
+    }
+
+    .learn-source {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .main-footer .list-inline {
+    margin-top: 10px;
+    }
+
+
+
+}
+
+
+
+
+@media(min-width:1100px) {
+    .home-header-container {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/monkees-car.jpg");
+
+    }
+
+    .header-title {
+        font-size: 180px;
+    }
+    .header-subtitle {
+        font-size: 30px;
+    }
+
+    .return-home {
+        font-size: 40px;
+    }
+
+    .return-home i {
+        font-size: 40px;
+    }
+
+    #down-icon {
+        font-size: 120px;
+    }
+
+    .home-nav-button {
+        height: 300px;
+    }
+
+    .home-nav-button-content .button-title {
+        font-size: 150px;
+        letter-spacing: 15px;
+
+    }
+
+    .home-nav-button-background {
+        filter: grayscale(1);
+    }
+
+    .home-nav-button-content .button-subtitle {
+        font-size: 30px;
+        opacity: 0;
+
+    }
+
+    aside .blockquote {
+
+        font-size: 2em;
+        padding-top: 400px;
+        margin: 80;
+
+    }
+
+
+    .secondary-page-card .card-header {
+        height: 300px;
+
+    }
+
+    .card-header .card-title {
+        font-size: 110px;
+    }
+
+    .card-header .card-subtitle {
+        font-size: 30px;
+        transform: translateY(-50%)/*overrides value of -70%)*/
+    }
+
+
+
+    .audio-large-screen-table td {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .audio-large-screen-table th {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .instagram-img {
+        margin: 15px;
+    }
+
+    .instagram-buttons-wrapper {
+
+        margin-bottom: 1%;
+        /*adds space for nav arrow*/
+    }
+
+    .all-card img {
+        height: 40vh;
+    }
+
+    .gigs-table {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    .social-icon-list {
+
+        margin-bottom: 16px;
+    }
+
+
+
+    .learn-body-img-left {
+        margin-right: 1%;
+
+
+    }
+
+    .learn-body-img-right {
+        margin-left: 1%;
+
+    }
+    
+    .main-footer .list-inline {
+    margin-top: 20px;
+}
+
+
+}
+
+
+
+
+/*======================================================================================================Animations*/
+
+@keyframes arrow-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

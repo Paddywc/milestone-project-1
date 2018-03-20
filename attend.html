@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/project-assets/css/style.css" type="text/css" />
+
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script src="less.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js"></script>
+
+
+    <!-- Monkees album cover fonts -->
+    <link href="//db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std" rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo" rel="stylesheet" type="text/css" />
+
+
+    <!-- Other fonts -->
+    <link href="//db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy" rel="stylesheet" type="text/css" />
+
+
+
+    <!--Google font icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Font awesome icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+    <!--Bootstrap Java-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>Attend</title>
+
+
+
+</head>
+
+<body>
+    <header class="container-fluid header-container attend-header-container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <h1 class="header-title ">Attend</h1>
+                </div>
+
+                <div class="row">
+                    <h2 class="header-subtitle">Book tickets to upcoming gigs.<br class = "d-lg-none" > Be alerted when The Monkees next come to your town</h2>
+                </div>
+                <div class="row">
+                    <div class="return-home-wrapper">
+                        <!-- enables center-justified content without full widith hyperlink-->
+
+                        <a href="index.html" class="return-home">
+                    <span>Return Home</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="#down-to-content" class="navigate-down"><i class="material-icons" id = "down-icon">keyboard_arrow_down</i></a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container-fluid secondary-page-body" id="down-to-content">
+
+
+
+            <!----------------------------------Gigs----------------------------------------->
+
+
+            <div class="secondary-page-card attend-card attend-gigs-card">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Gigs</h3>
+                        <h4 class="card-subtitle">View a schedule of announced gigs</h4>
+                        <h5 class="mb-0 card-down-icon">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-attend-gigs" aria-expanded="true" aria-controls="collapseOne">
+          <a href="#main-navigation" class="nav-down"><i class="material-icons" id = "down-icon">keyboard_arrow_down</i></a>
+        </button>
+                        </h5>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div id="collapse-attend-gigs" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+
+
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="america-tab" data-toggle="tab" href="#america" role="tab" aria-controls="america" aria-selected="true">America</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="europe-tab" data-toggle="tab" href="#europe" role="tab" aria-controls="europe" aria-selected="false">Europe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="MEA-tab" data-toggle="tab" href="#MEA" role="tab" aria-controls="MEA" aria-selected="false">Middle East and Africa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="EAP-tab" data-toggle="tab" href="#EAP" role="tab" aria-controls="EAP" aria-selected="false">East Asia Pacific</a>
+                                </li>
+                            </ul>
+
+
+
+
+                            <div class="tab-content" id="myTabContent">
+
+
+                                <!------------------------------------------------------------America--------------------------------------------------------------------------------->
+
+                                <div class="tab-pane fade show active" id="america" role="tabpanel" aria-labelledby="america-tab">
+
+
+
+                                    <div class="card card-body gigs-card-body container-fluid">
+
+                                        <h3 class="gigs-region-title">America:</h3>
+
+                                        <div class="gigs-table">
+                                            <!--Hidden on small devices-->
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Location</th>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Tickets</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Chandler, AZ, USA</td>
+                                                        <td>June 1, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-chandler-arizona-06-01-2018/event/190054419B9136AD?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_190054419B9136AD&tm_link=search_msg-0_190054419B9136AD#efeat4212"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Los Angeles, CA, USA</td>
+                                                        <td>June 2, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-los-angeles-california-06-02-2018/event/0900544FEE7B88C1?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_0900544FEE7B88C1&tm_link=search_msg-0_0900544FEE7B88C1#efeat4212"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>San Diego, CA, USA</td>
+                                                        <td>June 3, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-san-diego-california-06-03-2018/event/0A005450CF0631CF?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_0A005450CF0631CF&tm_link=search_msg-0_0A005450CF0631CF#efeat4212"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Anaheim, CA, USA </td>
+                                                        <td>June 5, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/event/Z7r9jZ1AeG-Jo?routing=y&tmrid=TMR-2321991&_ga=2.35309345.1865230552.1521046213-491576375.1521046210" target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Stockton, CA, USA</td>
+                                                        <td>June 8, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-stockton-california-06-08-2018/event/1C00544F9AC1381E?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_1C00544F9AC1381E&tm_link=search_msg-0_1C00544F9AC1381E#efeat4212"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Stateline, NV, USA</td>
+                                                        <td>June 9, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-stateline-nevada-06-09-2018/event/39005449D67C4E88?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_39005449D67C4E88&tm_link=search_msg-0_39005449D67C4E88"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Chicago, IL, USA</td>
+                                                        <td>June 14, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/event/Z7r9jZ1AeGxFb?routing=y&tmrid=TMR-2322218&_ga=2.35309345.1865230552.1521046213-491576375.1521046210" target="_blank" class="btn btn-warning">Tickets</a></td>
+
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Huber Heights, OH, USA</td>
+                                                        <td>June 15, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-huber-heights-ohio-06-15-2018/event/1600543ECAC06F96?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_1600543ECAC06F96&tm_link=search_msg-0_1600543ECAC06F96#efeat4212"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Cleveland Heights, OH, USA</td>
+                                                        <td>June 16, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-cleveland-heights-ohio-06-16-2018/event/05005450930B3810?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_05005450930B3810&tm_link=search_msg-0_05005450930B3810"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Toronto, ON, CAN</td>
+                                                        <td>June 18, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-toronto-ontario-06-18-2018/event/10005450CC0C9C67?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_10005450CC0C9C67"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Glenside, PA, USA</td>
+                                                        <td>June 21, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/event/Z7r9jZ1AeG-qo?routing=y&tmrid=TMR-2321751&_ga=2.198878895.1865230552.1521046213-491576375.1521046210" target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>New York, NY, USA</td>
+                                                        <td>June 22, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-new-york-new-york-06-22-2018/event/3B00544BEAD4326A?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_3B00544BEAD4326A&tm_link=search_msg-0_3B00544BEAD4326A"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Huntington, NY , USA</td>
+                                                        <td>June 23, 2018</td>
+                                                        <td> <a href="https://www1.ticketmaster.com/the-monkees-present-the-mike-huntington-new-york-06-23-2018/event/0000544FCA9157E9?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_0000544FCA9157E9&tm_link=search_msg-0_0000544FCA9157E9"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Red Bank, NJ, USA</td>
+                                                        <td>June 25, 2018</td>
+                                                        <td> <a href="https://www.ticketmaster.com/the-monkees-present-the-mike-red-bank-new-jersey-06-25-2018/event/1D005450FB803EF2?artistid=735678&majorcatid=10001&minorcatid=1&tm_link=search_msg-0_1D005450FB803EF2&tm_link=search_msg-0_1D005450FB803EF2"
+                                                                target="_blank" class="btn btn-warning">Tickets</a></td>
+
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
+
+                                </div>
+
+
+
+                                <!------------------------------------------------------------Europe--------------------------------------------------------------------------------->
+
+
+
+                                <div class="tab-pane fade" id="europe" role="tabpanel" aria-labelledby="europe-tab">
+
+                                    <div class="card card-body gigs-card-body container-fluid">
+                                        <h3 class="gigs-region-title">Europe:</h3>
+
+                                        <div class="no-gigs-text">
+                                            <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#AlertsCard" class="alerts-link">alerts</a> </p>
+                                        </div>
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+
+
+
+
+                                <!------------------------------------------------------------Middle East and Africa---------------------------------------------------------------------------------->
+
+
+
+
+                                <div class="tab-pane fade" id="MEA" role="tabpanel" aria-labelledby="MEA-tab">
+
+                                    <div class="card card-body gigs-card-body container-fluid">
+
+                                        <h3 class="gigs-region-title">Middle East and Africa:</h3>
+
+                                        <div class="no-gigs-text">
+                                            <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#AlertsCard" class="alerts-link">alerts</a> </p>
+                                        </div>
+
+
+
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <!------------------------------------------------------------ East Asia Pacfic--------------------------------------------------------------------------------->
+
+                                <div class="tab-pane fade" id="EAP" role="tabpanel" aria-labelledby="EAP-tab">
+                                    <div class="card card-body gigs-card-body container-fluid">
+
+
+                                        <h3 class="gigs-region-title">East Asia Pacfic:</h3>
+
+                                        <div class="no-gigs-text">
+                                            <p>Sorry, there are currently no gigs scheduled for this region. <br> Want to know when a new date is announced? Subscribe to your region's <a href="#AlertsCard" class="alerts-link">alerts</a> </p>
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                <!--closes card body-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!----------------------------------Alerts--------------------------------------------->
+
+
+
+            <div class="secondary-page-card attend-card attend-alerts-card" id="AlertsCard">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Alerts</h3>
+                        <h4 class="card-subtitle">Get an email when new Monkees gigs are announced in your region</h4>
+                        <h5 class="mb-0 card-down-icon">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-attend-alerts" aria-expanded="true" aria-controls="collapseOne">
+          <a href="#main-navigation" class="nav-down"><i class="material-icons" id = "down-icon">keyboard_arrow_down</i></a>
+        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse-attend-alerts" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+
+                            <form class="attend-form">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6">
+                                        <select class="form-control">
+                                                <option class= "defualt-option">Select Region...</option>
+                                                <option>America</option>
+                                                 <option>Europe</option>
+                                                 <option>Middle East and Africa</option>
+                                                 <option>East Asia Pacfic</option>
+                                            </select>
+                                    </div>
+
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" placeholder="Email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <button type="submit" class="btn btn-warning">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer class="main-footer container-fluid">
+
+        <div class="row">
+
+            <!---------------------------------Mobile/tablet footer--------------------------------->
+            <div class="col-xs-12 col-xl-12  d-xl-none">
+                <div class="row mobile-footer-row">
+                    <div class="col-xs-3 col-md-3 offset-3 dropup-col">
+                        <div class="btn-group dropup footer-dropup">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Navigation
+  </button>
+                            <div class="dropdown-menu">
+
+                                <!-- Dropup menu links -->
+                                <div class="row footer-home dropup-link">
+                                    <a href='index.html'> <span class="footer-text">Home</span></a>
+                                </div>
+                                <div class="row footer-book dropup-link">
+                                    <a href='book.html'><span class="footer-text">Book</span></a>
+                                </div>
+                                <div class="row footer-listen dropup-link">
+                                    <a href='listen.html'> <span class="footer-text">Listen</span></a>
+                                </div>
+                                <div class="row footer-follow dropup-link">
+                                    <a href='follow.html'><span class="footer-text">Follow</span></a>
+                                </div>
+                                <div class="row footer-attend dropup-link">
+                                    <a href='attend.html'><span class="footer-text">Attend</span></a>
+                                </div>
+                                <div class="row footer-learn dropup-link">
+                                    <a href='learn.html'> <span class="footer-text">Learn</span></a>
+                                </div>
+                                <div class="row footer-contact dropup-link">
+                                    <a href='contact.html'> <span class="footer-text">Contact</span></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-md-3 offset-3  ">
+                        <ul class="list-inline social-icon-list">
+
+                            <li class="instagram-footer-icon-wrapper list-inline-item">
+                                <a href="https://www.instagram.com/themonkees/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="youtube-footer-icon-wrapper list-inline-item">
+                                <a href="https://www.youtube.com/user/themonkees" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+
+                            <li class="twitter-footer-icon-wrapper list-inline-item">
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
+                                <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+
+
+                            <li class="facebook-footer-icon-wrapper list-inline-item">
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
+                                <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!---------------------------------Desktop footer--------------------------------->
+            <div class="col-xs-12 col-md-12 d-none d-xl-block">
+
+                <div class="row justify-content-center">
+
+                    <ul class="list-inline ">
+
+                        <div class="col-xs-1 col-md-1 footer-home">
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='index.html'> <span class="footer-text">Home</span></a>
+                            </li>
+                        </div>
+
+                        <div class="col-xs-1 col-md-1 footer-book">
+
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='book.html'><span class="footer-text">Book</span></a>
+                            </li>
+                        </div>
+
+                        <div class="col-xs-1 col-md-1 footer-listen">
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='listen.html'> <span class="footer-text">Listen</span></a>
+                            </li>
+
+                        </div>
+
+
+                        <div class="col-xs-1 col-md-1 footer-follow">
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='follow.html'><span class="footer-text">Follow</span></a>
+                            </li>
+                        </div>
+
+
+
+                        <div class="col-xs-1 col-md-1 footer-attend">
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='attend.html'><span class="footer-text">Attend</span></a>
+                            </li>
+                        </div>
+
+
+                        <div class="col-xs-1 col-md-1 footer-learn">
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='learn.html'> <span class="footer-text">Learn</span></a>
+                            </li>
+                        </div>
+
+
+                        <div class="col-xs-1 col-md-1 footer-contact">
+                            <li class="list-inline-item align-middle col-xs-1 col-md-1">
+                                <a href='contact.html'> <span class="footer-text">Contact</span></a>
+                            </li>
+                        </div>
+
+
+                        <div class="col-xs-2 col-md-2 offset-1 social-media-col">
+                            <li class="instagram-footer-icon-wrapper list-inline-item">
+                                <a href="https://www.instagram.com/themonkees/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="youtube-footer-icon-wrapper list-inline-item">
+                                <a href="https://www.youtube.com/user/themonkees" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+
+                            <li class="twitter-footer-icon-wrapper list-inline-item">
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
+                                <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+
+
+                            <li class="facebook-footer-icon-wrapper list-inline-item">
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
+                                <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                        </div>
+                </div>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="/project-assets/css/style.css" type="text/css" />
 
-    <link rel="stylesheet/less" type="text/css" href="styles.less" />
-    <script src="less.js" type="text/javascript"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js"></script>
-
-
     <!-- Monkees album cover fonts -->
     <link href="//db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std" rel="stylesheet" type="text/css" />
     <link href="//db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo" rel="stylesheet" type="text/css" />
@@ -31,38 +26,57 @@
 </head>
 
 <body>
+
+    <!--header-->
     <header class="container-fluid header-container home-header-container">
         <div class="row">
             <div class="col-xs-12">
+
+                <!--title-->
                 <div class="row">
                     <h1 class="header-title ">The Monkees</h1>
                 </div>
 
-                <!--Hidden on home page, but kept in flow for spacing consistency-->
+                
+                <!--subtitle-->
+                   <!--
+                     Hidden on home page
+                    Kept in flow for spacing consistency
+                -->
                 <div class="row">
-                    <span class="keep-but-make-invisible"><h2 class="header-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, consectetur voluptates delectus. </h2></span>
+                    <span class="keep-but-make-invisible">
+                        <h2 class="header-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, consectetur voluptates delectus. </h2>
+                    </span>
                 </div>
+
+                <!--return home-->
                 <div class="row">
                     <div class="return-home-wrapper">
-                        <!-- enables center-justified content without full widith hyperlink-->
                         <a href="index.html" class="return-home">
-                    <span class= "keep-but-make-invisible"><span>Return to Home</span></span>
+                            <span class="keep-but-make-invisible">
+                                <span>Return to Home</span>
+                            </span>
                         </a>
                     </div>
                 </div>
 
+                <!--nav down arrow-->
                 <div class="row">
-                    <a href="#down-to-content" class="navigate-down"><i class="material-icons" id = "down-icon">keyboard_arrow_down</i></a>
+                    <a href="#down-to-content" class="navigate-down">
+                        <i class="material-icons" id="down-icon">keyboard_arrow_down</i>
+                    </a>
                 </div>
-            </div>
 
-        </div>
+            </div>
         </div>
     </header>
 
+    <!--main-->
     <main>
         <section class="container-fluid" id="down-to-content">
             <div class="row">
+
+                <!--quotes. Visable when > md-->
                 <aside class="col-md-3 d-none d-md-block">
                     <div class="row">
                         <blockquote class="blockquote">
@@ -75,7 +89,10 @@
                         </blockquote>
                     </div>
                 </aside>
-                <nav class="col-xs-12 col-md-9 ">
+
+                <!--main buttons-->
+                <div class="col-xs-12 col-md-9 ">
+
                     <!--book button-->
                     <div class="row ">
                         <div class="home-nav-button book-nav-button">
@@ -90,11 +107,11 @@
                             </a>
                         </div>
                     </div>
+
                     <!--listen button-->
                     <div class="row ">
                         <div class="home-nav-button listen-nav-button">
                             <a href="listen.html">
-                                <!-- separate button content and background to apply filter to background only-->
                                 <div class="home-nav-button-background listen-nav-button-background">
                                 </div>
                                 <div class="home-nav-button-content listen-nav-button-content">
@@ -104,25 +121,26 @@
                             </a>
                         </div>
                     </div>
+
                     <!--follow button-->
                     <div class="row ">
                         <div class="home-nav-button follow-nav-button">
                             <a href="follow.html">
-                                <!-- separate button content and background to apply filter to background only-->
                                 <div class="home-nav-button-background follow-nav-button-background">
                                 </div>
                                 <div class="home-nav-button-content follow-nav-button-content">
                                     <h3 class="button-title">Follow</h3>
-                                    <h4 class="button-subtitle">Keep up-to-date on social media<h4>
+                                    <h4 class="button-subtitle">Keep up-to-date on social media
+                                        <h4>
                                 </div>
                             </a>
                         </div>
                     </div>
+
                     <!--attend button-->
                     <div class="row ">
                         <div class="home-nav-button attend-nav-button">
                             <a href="attend.html">
-                                <!-- separate button content and background to apply filter to background only-->
                                 <div class="home-nav-button-background attend-nav-button-background">
                                 </div>
                                 <div class="home-nav-button-content attend-nav-button-content">
@@ -132,11 +150,11 @@
                             </a>
                         </div>
                     </div>
+
                     <!--learn button-->
                     <div class="row ">
                         <div class="home-nav-button learn-nav-button">
                             <a href="learn.html">
-                                <!-- separate button content and background to apply filter to background only-->
                                 <div class="home-nav-button-background learn-nav-button-background">
                                 </div>
                                 <div class="home-nav-button-content learn-nav-button-content">
@@ -146,11 +164,11 @@
                             </a>
                         </div>
                     </div>
+
                     <!--contact button-->
                     <div class="row ">
                         <div class="home-nav-button contact-nav-button">
                             <a href="contact.html">
-                                <!-- separate button content and background to apply filter to background only-->
                                 <div class="home-nav-button-background contact-nav-button-background">
                                 </div>
                                 <div class="home-nav-button-content contact-nav-button-content">
@@ -161,186 +179,212 @@
                         </div>
                     </div>
 
-
-
-                </nav>
+                </div>
             </div>
 
         </section>
     </main>
 
+    <!--footer-->
     <footer class="main-footer container-fluid">
-
         <div class="row">
 
-            <!---------------------------------Mobile/tablet footer--------------------------------->
+            <!--Mobile/tablet footer-->
             <div class="col-xs-12 col-xl-12  d-xl-none">
                 <div class="row mobile-footer-row">
+
+                    <!--dropup menu-->
                     <div class="col-xs-3 col-md-3 offset-3 dropup-col">
                         <div class="btn-group dropup footer-dropup">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Navigation
-  </button>
-                            <div class="dropdown-menu">
+                                Navigation
+                            </button>
 
                                 <!-- Dropup menu links -->
+                                <div class="dropdown-menu">
+
                                 <div class="row footer-home dropup-link">
-                                    <a href='index.html'> <span class="footer-text">Home</span></a>
+                                    <a href='index.html'>
+                                        <span class="footer-text">Home</span>
+                                    </a>
                                 </div>
+
                                 <div class="row footer-book dropup-link">
-                                    <a href='book.html'><span class="footer-text">Book</span></a>
+                                    <a href='book.html'>
+                                        <span class="footer-text">Book</span>
+                                    </a>
                                 </div>
+
                                 <div class="row footer-listen dropup-link">
-                                    <a href='listen.html'> <span class="footer-text">Listen</span></a>
+                                    <a href='listen.html'>
+                                        <span class="footer-text">Listen</span>
+                                    </a>
                                 </div>
+
                                 <div class="row footer-follow dropup-link">
-                                    <a href='follow.html'><span class="footer-text">Follow</span></a>
+                                    <a href='follow.html'>
+                                        <span class="footer-text">Follow</span>
+                                    </a>
                                 </div>
+
                                 <div class="row footer-attend dropup-link">
-                                    <a href='attend.html'><span class="footer-text">Attend</span></a>
+                                    <a href='attend.html'>
+                                        <span class="footer-text">Attend</span>
+                                    </a>
                                 </div>
+
                                 <div class="row footer-learn dropup-link">
-                                    <a href='learn.html'> <span class="footer-text">Learn</span></a>
+                                    <a href='learn.html'>
+                                        <span class="footer-text">Learn</span>
+                                    </a>
                                 </div>
+
                                 <div class="row footer-contact dropup-link">
-                                    <a href='contact.html'> <span class="footer-text">Contact</span></a>
+                                    <a href='contact.html'>
+                                        <span class="footer-text">Contact</span>
+                                    </a>
                                 </div>
 
                             </div>
                         </div>
                     </div>
 
+                    <!--social icons-->
                     <div class="col-xs-3 col-md-3 offset-3  ">
                         <ul class="list-inline social-icon-list">
 
                             <li class="instagram-footer-icon-wrapper list-inline-item">
                                 <a href="https://www.instagram.com/themonkees/" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
 
                             <li class="youtube-footer-icon-wrapper list-inline-item">
                                 <a href="https://www.youtube.com/user/themonkees" target="_blank">
-                                <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
 
                             <li class="twitter-footer-icon-wrapper list-inline-item">
-                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
-                                <i class="fab fa-twitter-square"></i>
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank">
+                                    <i class="fab fa-twitter-square"></i>
                                 </a>
                             </li>
 
 
                             <li class="facebook-footer-icon-wrapper list-inline-item">
-                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
-                                <i class="fab fa-facebook-square"></i>
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>
                                 </a>
                             </li>
 
                         </ul>
-
                     </div>
+
                 </div>
             </div>
 
-
-
-
-
-            <!---------------------------------Desktop footer--------------------------------->
+            <!--Desktop footer-->
             <div class="col-xs-12 col-md-12 d-none d-xl-block">
-
                 <div class="row justify-content-center">
 
+                    <!--footer nav links-->
                     <ul class="list-inline ">
 
                         <div class="col-xs-1 col-md-1 footer-home">
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='index.html'> <span class="footer-text">Home</span></a>
+                                <a href='index.html'>
+                                    <span class="footer-text">Home</span>
+                                </a>
                             </li>
                         </div>
 
                         <div class="col-xs-1 col-md-1 footer-book">
-
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='book.html'><span class="footer-text">Book</span></a>
+                                <a href='book.html'>
+                                    <span class="footer-text">Book</span>
+                                </a>
                             </li>
                         </div>
 
                         <div class="col-xs-1 col-md-1 footer-listen">
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='listen.html'> <span class="footer-text">Listen</span></a>
+                                <a href='listen.html'>
+                                    <span class="footer-text">Listen</span>
+                                </a>
                             </li>
-
                         </div>
 
 
                         <div class="col-xs-1 col-md-1 footer-follow">
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='follow.html'><span class="footer-text">Follow</span></a>
+                                <a href='follow.html'>
+                                    <span class="footer-text">Follow</span>
+                                </a>
                             </li>
                         </div>
-
-
 
                         <div class="col-xs-1 col-md-1 footer-attend">
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='attend.html'><span class="footer-text">Attend</span></a>
+                                <a href='attend.html'>
+                                    <span class="footer-text">Attend</span>
+                                </a>
                             </li>
                         </div>
-
 
                         <div class="col-xs-1 col-md-1 footer-learn">
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='learn.html'> <span class="footer-text">Learn</span></a>
+                                <a href='learn.html'>
+                                    <span class="footer-text">Learn</span>
+                                </a>
                             </li>
                         </div>
-
 
                         <div class="col-xs-1 col-md-1 footer-contact">
                             <li class="list-inline-item align-middle col-xs-1 col-md-1">
-                                <a href='contact.html'> <span class="footer-text">Contact</span></a>
+                                <a href='contact.html'>
+                                    <span class="footer-text">Contact</span>
+                                </a>
                             </li>
                         </div>
 
 
+                        <!--social icons-->
                         <div class="col-xs-2 col-md-2 offset-1 social-media-col">
+
                             <li class="instagram-footer-icon-wrapper list-inline-item">
                                 <a href="https://www.instagram.com/themonkees/" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
 
                             <li class="youtube-footer-icon-wrapper list-inline-item">
                                 <a href="https://www.youtube.com/user/themonkees" target="_blank">
-                                <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
 
                             <li class="twitter-footer-icon-wrapper list-inline-item">
-                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
-                                <i class="fab fa-twitter-square"></i>
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank">
+                                    <i class="fab fa-twitter-square"></i>
                                 </a>
                             </li>
 
 
                             <li class="facebook-footer-icon-wrapper list-inline-item">
-                                <a href="https://twitter.com/themonkees?lang=en" target="_blank"> 
-                                <i class="fab fa-facebook-square"></i>
+                                <a href="https://twitter.com/themonkees?lang=en" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>
                                 </a>
                             </li>
+
                         </div>
+                    </ul>
                 </div>
 
-                </ul>
             </div>
-        </div>
-        </div>
-        </div>
 
-
-
+        </div>
+        
     </footer>
 
 </body>

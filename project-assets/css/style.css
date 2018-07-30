@@ -5,7 +5,6 @@
 @import url(//db.onlinewebfonts.com/c/6f647d2fb27f7ad2f727d5286bc1bed1?family=Quotes);
 @import url(//db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy);
 
-
 /* The Monkees album cover fonts*/
 
 @font-face {
@@ -51,13 +50,6 @@
     url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy") format("svg");
 }
-
-
-
-
-
-
-
 /*======================================================================================================Colors*/
 
 body {
@@ -80,8 +72,6 @@ body {
     margin-right: 0;
 }
 
-
-
 /*======================================================================================================Header-General*/
 
 .header-container {
@@ -95,11 +85,6 @@ body {
 }
 
 
-
-
-
-
-
 .header-title {
     font-family: "Kalligraphia LT Std", sans-serif;
     font-size: 60px;
@@ -107,9 +92,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .header-subtitle {
@@ -132,9 +114,6 @@ body {
     visibility: hidden;
 }
 
-
-
-
 .return-home:hover {
     text-decoration: none;
 }
@@ -143,16 +122,11 @@ body {
     transform: translateY(10vh);
     width: 100%;
     text-align: center;
-
 }
 
 .return-home-wrapper a {
-
     color: #FFFFB7;
-
 }
-
-
 
 
 .return-home-wrapper span::before {
@@ -163,9 +137,7 @@ body {
 
 .return-home {
     font-size: 13px;
-
 }
-
 
 
 #down-icon {
@@ -178,15 +150,6 @@ body {
     opacity: 0;
     animation: arrow-appear ease-in-out forwards 3s;
 }
-
-
-
-
-
-
-
-
-
 
 /*======================================================================================================Header-backgrounds*/
 
@@ -202,19 +165,16 @@ body {
 .listen-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car.jpg");
     background-size: cover;
-
 }
 
 .follow-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow.png");
     background-size:cover;
-
 }
 
 .attend-header-container {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
     background-size:cover;
-
 }
 
 .learn-header-container {
@@ -236,9 +196,7 @@ aside .blockquote {
     line-height: 1.5em;
     font-weight: 500;
     color: #f4eff4;
-
 }
-
 
 /*======================================================================================================Home: Main Nav Buttons*/
 
@@ -252,8 +210,6 @@ aside .blockquote {
     justify-content: center;
     width: 100%;
     float: right;
-
-
 }
 
 
@@ -268,8 +224,6 @@ aside .blockquote {
      -moz-transition: filter 1s ease-in-out;
     -webkit-transition: filter 1s ease-in-out;
     -o-transition: all filter 1s ease-in-out;
-
-
 }
 
 
@@ -280,12 +234,10 @@ aside .blockquote {
     /*stops overflow on smaller devices:;*/
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
 .home-nav-button-content .button-title {
     font-family: "hobo", sans-serif;
-
     color: #F4F21A;
     z-index: 10;
     font-size: 50px;
@@ -294,7 +246,6 @@ aside .blockquote {
  -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
-
 }
 
 .home-nav-button-content .button-subtitle {
@@ -307,9 +258,6 @@ aside .blockquote {
     transform: translateY(-50%);
     padding-top: 50px;
     text-transform: capitalize;
-
-
-
 }
 
 .home-nav-button a {
@@ -322,8 +270,6 @@ aside .blockquote {
     text-decoration: none;
 }
 
-
-
 /*======================================================================================================Home: Background images for main nav buttons*/
 
 .book-nav-button-background {
@@ -332,9 +278,7 @@ aside .blockquote {
 
 .listen-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car-shorter.jpg");
-
 }
-
 
 .follow-nav-button-background {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow-shorter.png");
@@ -355,30 +299,12 @@ aside .blockquote {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
     background-position: top;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*======================================================================================================Secondary page*/
 
 .secondary-page-body {
     width: 95%;
     margin: auto;
 }
-
-
 /*======================================================================================================Secondary page Cards*/
 
 .card {
@@ -386,11 +312,7 @@ aside .blockquote {
     margin: 1% 0;
     box-shadow: -13px 9px 12px 6px rgba(0, 0, 0, 0.75);
     background-color: #f4eff4;
-
-
 }
-
-
 
 .secondary-page-card .card-header {
     height: 200px;
@@ -421,11 +343,7 @@ aside .blockquote {
     padding-top: 50px;
     text-align: center;
     text-transform: capitalize;
-
 }
-
-
-
 
 .card-body {
     margin-bottom: 5%;
@@ -433,22 +351,16 @@ aside .blockquote {
 }
 
 
-
 /*======================================================================================================Book*/
 
 .book-media-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
     background-position: top;
-
 }
 
 .quote-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/quote-car.jpg");
-
-
 }
-
-
 
 .book-media-card .card-body img {
     height: 300px;
@@ -461,7 +373,6 @@ aside .blockquote {
     /*Should = max-height of img above*/
     width: 100%;
 }
-
 
 .carousel-control-next-icon {
     /*should be visable against both light and dark backgrounds*/
@@ -482,8 +393,6 @@ aside .blockquote {
     margin-right: 5%;
 }
 
-
-
 input[type="date"]:before {
     /*Ensures "event date:" placeholder is seen in date form box*/
     content: attr(placeholder) !important;
@@ -495,7 +404,6 @@ input[type="date"]:before {
     min-height: 100px;
     width: 100%;
 }
-
 
 .quote-form button {
     margin-left: auto;
@@ -509,33 +417,24 @@ input[type="date"]:before {
     background-position: top;
 }
 
-
 .listen-latest-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/latest-car-shorter.jpg");
     background-position: top;
 }
-
 
 .listen-discover-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/discover-car-shorter.jpg");
     background-position: top;
 }
 
-
 .listen-collect-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/collect-2-car.jpg");
     background-position: center;
 }
 
-
 .listen-subscribe-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/subscribe-3.png");
-
 }
-
-
-
-
 
 .card-body .toggle-buttons-wrapper {
     text-align: center !important;
@@ -549,7 +448,6 @@ input[type="date"]:before {
     margin-left: 1%;
     margin-right: 1%;
 }
-
 
 .listen-card .nav-tabs a { /*targets auido/video tabs*/
     color:#F4F21A;
@@ -588,13 +486,11 @@ input[type="date"]:before {
     /*overrides previous effects*/
     box-shadow: none;
     margin-bottom: 10%;
-
 }
 
 .listen-card .listen-video-card {
     /*overrides previous effects*/
     box-shadow: none;
-
 }
 
 .listen-card .collect-card {
@@ -628,35 +524,20 @@ input[type="date"]:before {
     margin-right: auto;
 }
 
-
-
-
 /*======================================================================================================Follow*/
 
 .follow-instagram-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/instagram-background-2-car.jpg");
-
-
 }
-
 
 .follow-youtube-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/youtube.png");
     background-size: contain;
-
-
 }
-
 
 .follow-all-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/all-background-car.jpg");
-
-
 }
-
-
-
-
 
 .follow-card * {
     box-shadow: none;
@@ -674,19 +555,11 @@ input[type="date"]:before {
     /*adds space for nav arrow*/
 }
 
-
-.instagram-buttons-wrapper a
+.instagram-buttons-wrapper a{
 /*targets buttons*/
-
-    {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
-
-
-
 
 .youtube-channel-card {
     text-align: center;
@@ -704,9 +577,6 @@ input[type="date"]:before {
     max-width: 90%;
 }
 
-
-
-
 .all-card {
     text-align: center;
 }
@@ -723,7 +593,6 @@ input[type="date"]:before {
     padding-left: 5%;
     padding-right: 5%;
 }
-
 
 .all-card-instagram .btn {
     background-color: #8a3ab9;/*instagram purple*/
@@ -747,26 +616,16 @@ input[type="date"]:before {
 }
 
 
-
-
-
-
-
-
-
 /* ==========================================================================================>Attend */
 
 .attend-gigs-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/gigs-car.jpg");
-
 }
 
 .attend-alerts-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/alerts-car-shorter.jpg");
     background-position: top;
-
 }
-
 
 .gigs-card-body {
     box-shadow: none;
@@ -784,15 +643,12 @@ input[type="date"]:before {
     display: none;
 }
 
-
-
 .no-gigs-text {
     text-align: center;
 }
 
 .gigs-table {
     font-family: "Noteworthy", sans-serif;
-
 }
 
 .gigs-table .btn {
@@ -803,7 +659,6 @@ input[type="date"]:before {
     color:#F4F21A;
     font-weight: 700;
 }
-
 
 .attend-gigs-card .toggle-buttons-wrapper button {
     /*Creates space when stacked on smaller devices. Removed on larger devices*/
@@ -820,7 +675,6 @@ input[type="date"]:before {
     margin-bottom: 10px;
 }
 
-
 .attend-form .defualt-option {
     color: #aaa
 }
@@ -830,41 +684,27 @@ input[type="date"]:before {
     margin-right: auto;
 }
 
-
-
-
-
-
-
 /*======================================================================================================Learn*/
 
 .learn-band-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/band-background-car-shorter.jpg");
-
-
 }
 
 .learn-jones-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/davy-jones-background-car.jpg");
-
 }
 
 .learn-nesmith-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/michael-nesmithll-background-car.jpg");
-
 }
 
 .learn-dolenz-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/micky-dolenz-background-car.jpg");
-
 }
 
 .learn-tork-card .card-header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/peter-tork-background-car.jpg");
-
-
 }
-
 
 .learn-card-body {
     box-shadow: none;
@@ -874,7 +714,6 @@ input[type="date"]:before {
     font-family: 'Patrick Hand', cursive;
     margin-left: 2%;
     margin-right: 2%;
-
 }
 
 .learn-body-img-left {
@@ -893,17 +732,12 @@ input[type="date"]:before {
     margin-bottom: 0;
     max-width: 172px;
     max-height: 135px;
-
-
-
 }
 
 .learn-source {
     margin-left: 2%;
     margin-right: 2%;
 }
-
-
 
 
 /*======================================================================================================Contact*/
@@ -916,12 +750,9 @@ input[type="date"]:before {
     padding: 5% 10%;
 }
 
-
-
 #input-query {
     min-height: 100px;
     width: 100%;
-
 }
 
 .contact-form button {
@@ -939,13 +770,10 @@ input[type="date"]:before {
 
 .main-footer .list-inline {
     display: flex;
-
 }
 
 .main-footer .list-inline a {
-
     color: #CDA2AF;
-
 }
 
 .main-footer {
@@ -959,20 +787,15 @@ input[type="date"]:before {
     margin-right: 0;
 }
 
-
-
-
 .social-icon-list {
     /*prevents margin extendeding past footer. Overridden on tablet devices*/
     margin-bottom: 0;
-
 }
 
 .social-icon-list li {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 .mobile-footer-row {
     margin-top: 15px;
@@ -983,8 +806,6 @@ input[type="date"]:before {
     /*alligns content with social media row  on mobile*/
     padding-left: 7%;
 }
-
-
 
 .instagram-footer-icon-wrapper i {
     color: #ffffff;
@@ -998,14 +819,12 @@ font-size: 1.5em;
     color: #FF0000;
     /*youtube red*/
     font-size: 1.5em;
-
 }
 
 .twitter-footer-icon-wrapper i {
     color: #1DA1F2;
     /*twitter light blue*/
     font-size: 1.5em;
-
 }
 
 .facebook-footer-icon-wrapper i {
@@ -1053,7 +872,6 @@ font-size: 1.5em;
     font-weight: 900;
     content: "\f025";
     width: 50%;
-
     /*headphones icon*/
 }
 
@@ -1062,7 +880,6 @@ font-size: 1.5em;
     font-weight: 900;
     content: "\f004";
     width: 50%;
-
     /*Follow icon*/
 }
 
@@ -1091,13 +908,10 @@ font-size: 1.5em;
     /*envelope icon*/
 }
 
-
 .social-media-col {
     /*aligns icons with rest of row*/
     align-self: flex-end;
 }
-
-
 
 
 /* ==========================================================================================>Nav button hover effects */
@@ -1167,35 +981,27 @@ font-size: 1.5em;
         font-size: 25px;
     }
 
-
     #down-icon {
         font-size: 80px;
-
     }
 
     .return-home {
         font-size: 27px;
     }
 
-
     .return-home i {
         font-size: 27px;
     }
 
-
-
     .home-nav-button-content .button-title {
         font-size: 100px;
         letter-spacing: 10px;
-
     }
 
 
     .home-nav-button-content .button-subtitle {
         font-size: 20px;
-
     }
-
 
     .card-header .card-title {
         font-size: 80px;
@@ -1208,8 +1014,6 @@ font-size: 1.5em;
         transform: translateY(-80%);
         /* Ensures subitle remains above the nav down arrow*/
     }
-
-
 
     .card-header .card-down-icon i {
         /*targets icon itself*/
@@ -1241,7 +1045,6 @@ font-size: 1.5em;
     .audio-small-screen-table {
         display: none;
         font-size: 0.5em;
-
     }
 
     .audio-large-screen-table {
@@ -1260,7 +1063,6 @@ font-size: 1.5em;
 }
 
     .instagram-buttons-wrapper {
-
         margin-bottom: 2%;
         /*adds space for nav arrow*/
     }
@@ -1285,14 +1087,11 @@ font-size: 1.5em;
         display: inline;
     }
 
-
-
     .gigs-table {
         border-style: double;
         border-color: #ffffff;
         border-width: thick;
     }
-
 
     .learn-body-text {
         /*Margin no longer needed as col-10*/
@@ -1303,18 +1102,11 @@ font-size: 1.5em;
     .learn-body-img-left {
         max-width: 260px;
         max-height: 200px;
-
-
-
     }
-
 
     .learn-body-img-right {
         max-width: 260px;
         max-height: 200px;
-
-
-
     }
 
     .learn-source {
@@ -1325,8 +1117,6 @@ font-size: 1.5em;
     .main-footer .list-inline {
     margin-top: 10px;
     }
-
-
 
 }
 

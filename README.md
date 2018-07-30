@@ -28,7 +28,7 @@ Bootstrap enables the responsive, grid-based layout of the website. Certain phot
 ## Tech Used
 
 ### Some of the tech used includes:
--	**HTML**  and **CSS**
+-	**HTML5**  and **CSS**
     *	Aside from some Bootstrap components which use JavaScript, the entire website is built using HTML and CSS
     *	CSS enables hover effects and transitions, such as page headers’ down arrows slowly fading in
     *	The down arrow scrolls to the main section upon click via HTML id anchors  

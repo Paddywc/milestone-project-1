@@ -154,36 +154,36 @@ body {
 /*======================================================================================================Header-backgrounds*/
 
 .home-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/mobile-main-header-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/mobile-main-header-car.jpg");
     /*Filters image with transparent black*/
 }
 
 .book-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/book-car.jpg");
 }
 
 .listen-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/listen-car.jpg");
     background-size: cover;
 }
 
 .follow-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/follow.png");
     background-size:cover;
 }
 
 .attend-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/attend-car-2.jpg");
     background-size:cover;
 }
 
 .learn-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-2.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/learn-car-2.jpg");
     background-size:cover;
 }
 
 .contact-header-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/contact-car.jpg");
 }
 
 /*======================================================================================================Home: Aside*/
@@ -273,30 +273,30 @@ aside .blockquote {
 /*======================================================================================================Home: Background images for main nav buttons*/
 
 .book-nav-button-background {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/book-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/book-car-shorter.jpg");
 }
 
 .listen-nav-button-background {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/listen-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/listen-car-shorter.jpg");
 }
 
 .follow-nav-button-background {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/follow-shorter.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/follow-shorter.png");
     background-position: top;
 }
 
 .attend-nav-button-background {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/attend-car-2.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/attend-car-2.jpg");
     background-position: bottom;
 }
 
 .learn-nav-button-background {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/learn-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/learn-car-shorter.jpg");
     background-position: top;
 }
 
 .contact-nav-button-background {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/contact-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/contact-car.jpg");
     background-position: top;
 }
 /*======================================================================================================Secondary page*/
@@ -354,12 +354,12 @@ aside .blockquote {
 /*======================================================================================================Book*/
 
 .book-media-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/book-1-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/book/book-1-car-shorter.jpg");
     background-position: top;
 }
 
 .quote-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/book/quote-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/book/quote-car.jpg");
 }
 
 .book-media-card .card-body img {
@@ -413,27 +413,27 @@ input[type="date"]:before {
 /* ==========================================================================================>Listen*/
 
 .listen-classics-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/classics-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/listen/classics-car-shorter.jpg");
     background-position: top;
 }
 
 .listen-latest-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/latest-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/listen/latest-car-shorter.jpg");
     background-position: top;
 }
 
 .listen-discover-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/discover-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/listen/discover-car-shorter.jpg");
     background-position: top;
 }
 
 .listen-collect-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/collect-2-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/listen/collect-2-car.jpg");
     background-position: center;
 }
 
 .listen-subscribe-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/listen/subscribe-3.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/listen/subscribe-3.png");
 }
 
 .card-body .toggle-buttons-wrapper {
@@ -527,16 +527,16 @@ input[type="date"]:before {
 /*======================================================================================================Follow*/
 
 .follow-instagram-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/instagram-background-2-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/follow/instagram-background-2-car.jpg");
 }
 
 .follow-youtube-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/youtube.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/follow/youtube.png");
     background-size: contain;
 }
 
 .follow-all-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/follow/all-background-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/follow/all-background-car.jpg");
 }
 
 .follow-card * {
@@ -619,11 +619,11 @@ input[type="date"]:before {
 /* ==========================================================================================>Attend */
 
 .attend-gigs-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/gigs-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/attend/gigs-car.jpg");
 }
 
 .attend-alerts-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/attend/alerts-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/attend/alerts-car-shorter.jpg");
     background-position: top;
 }
 
@@ -687,23 +687,23 @@ input[type="date"]:before {
 /*======================================================================================================Learn*/
 
 .learn-band-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/band-background-car-shorter.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/learn/band-background-car-shorter.jpg");
 }
 
 .learn-jones-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/davy-jones-background-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/learn/davy-jones-background-car.jpg");
 }
 
 .learn-nesmith-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/michael-nesmithll-background-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/learn/michael-nesmithll-background-car.jpg");
 }
 
 .learn-dolenz-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/micky-dolenz-background-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/learn/micky-dolenz-background-car.jpg");
 }
 
 .learn-tork-card .card-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/learn/peter-tork-background-car.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/learn/peter-tork-background-car.jpg");
 }
 
 .learn-card-body {
@@ -1125,7 +1125,7 @@ font-size: 1.5em;
 
 @media(min-width:1100px) {
     .home-header-container {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/project-assets/images/header-and-nav/monkees-car.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("project-assets/images/header-and-nav/monkees-car.jpg");
 
     }
 

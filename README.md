@@ -43,6 +43,9 @@ Bootstrap enables the responsive, grid-based layout of the website. Certain phot
 - [**Online Web Fonts**](https://www.onlinewebfonts.com/), [**Google Material Design Icons**](https://material.io/tools/icons/?style=baseline) and [**Font Awesome**](https://fontawesome.com/)
     *	Imported fonts and font icons
 
+## Deployment
+The site is hosted on [GitHub Pages](https://paddywc.github.io/milestone-project-1/). The source of this code is the [gh-pages branch]( https://github.com/Paddywc/milestone-project-1/tree/gh-pages) of the project GitHub repository. It mirrors the master branch in every way, with the exception of some media URLs.  The leading slash is removed for CSS imports from the project directory (“project-assets/..” rather than “"/project-assets/..”), and absolute, rather than relative URLs are used for the image sources. 
+
 ## Credits
 -	Code for embedding Instagram code is from the [Instagram website]( https://www.instagram.com/developer/embedding/)
 -	Kalligraphia, Hobo, Quotes, and Noteworthy  fonts are from [Online Web Fonts](https://www.onlinewebfonts.com/), 

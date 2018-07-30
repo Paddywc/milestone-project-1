@@ -1,49 +1,54 @@
 /*======================================================================================================Imports*/
 
+@import url("https://db.onlinewebfonts.com/c/9f8ad72f856cb62f2c07c4676c2cc716?family=Kalligraphia+LT+Std");
+@import url("https://db.onlinewebfonts.com/c/eaa271d84d7de7fbfd31c0d030f05b00?family=Hobo");
+@import url("https://db.onlinewebfonts.com/c/6f647d2fb27f7ad2f727d5286bc1bed1?family=Quotes");
+@import url("https://db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy");
+
 /* The Monkees album cover fonts*/
 
 @font-face {
     font-family: "Kalligraphia LT Std";
-    src: url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.eot");
-    src: url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.svg#Kalligraphia LT Std") format("svg");
+    src: url("https://db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.eot");
+    src: url("https://db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9f8ad72f856cb62f2c07c4676c2cc716.svg#Kalligraphia LT Std") format("svg");
 }
 
 @font-face {
     font-family: "Hobo";
-    src: url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.eot");
-    src: url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.svg#Hobo") format("svg");
+    src: url("https://db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.eot");
+    src: url("https://db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/eaa271d84d7de7fbfd31c0d030f05b00.svg#Hobo") format("svg");
 }
 
 /*font for quotes*/
 
 @font-face {
     font-family: "Quotes";
-    src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot");
-    src: url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.svg#Quotes") format("svg");
+    src: url("https://db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot");
+    src: url("https://db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6f647d2fb27f7ad2f727d5286bc1bed1.svg#Quotes") format("svg");
 }
 
 /*Other fonts*/
 
 @font-face {
     font-family: "Noteworthy";
-    src: url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot");
-    src: url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy") format("svg");
+    src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot");
+    src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy") format("svg");
 }
 /*======================================================================================================Colors*/
 

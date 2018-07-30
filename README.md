@@ -10,7 +10,7 @@ Displays media of past private events featuring The Monkees, as well as a form t
 Please note that these forms and mailing lists are fictitious. No data is submitted upon completion of these forms
 
 ### How does it work?
-Bootstrap enables the responsive, grid-based layout of the website. Certain photos change depending on the screen width of the user’s device, and some sections and features only appear on larger devices. [Google Material Design Icons](https://material.io/tools/icons/?style=baseline) and [Font Awesome Icons](https://fontawesome.com/) are used for the site’s icons, and keyframe rules are used for their animations. Most animations (e.g. buttons changing from grayscale to colour on hover) work via CSS selectors and transitions. HTML anchors enable navigation across the same page (e.g. clicking the down arrow in the header to navigate to the content). The collapsible cards are a feature of Bootstrap. YouTube videos are displayed as an inline frame (iframe). Audio clips are played via saved files in the project directory. Instagram images are embedded using the embedding code found on the [Instagram website]( https://www.instagram.com/developer/embedding/)
+Bootstrap enables the responsive, grid-based layout of the website. Certain photos change depending on the screen width of the user’s device, and some sections and features only appear on larger devices. [Google Material Design Icons](https://material.io/tools/icons/?style=baseline) and [Font Awesome Icons](https://fontawesome.com/) are used for the site’s icons, and keyframe rules are used for their animations. Most animations (e.g. buttons changing from grayscale to colour on hover) work via CSS selectors and transitions. HTML anchors enable navigation across the same page (e.g. clicking the down arrow in the header to navigate to the content). The collapsible cards are a feature of Bootstrap. YouTube videos are displayed as an inline frame (iframe). Audio clips are played via saved files in the project directory. Instagram images are embedded using the embedding code found on the [Instagram website](https://www.instagram.com/developer/embedding/)
 
 ## Features
 
@@ -44,9 +44,9 @@ Bootstrap enables the responsive, grid-based layout of the website. Certain phot
     *	Imported fonts and font icons
 
 ## Deployment
-The site is hosted on [GitHub Pages](https://paddywc.github.io/milestone-project-1/). The source of this code is the [gh-pages branch](https://github.com/Paddywc/milestone-project-1/tree/gh-pages) of the project GitHub repository. It mirrors the master branch in every way, with the exception of some media URLs.  The leading slash is removed for CSS imports from the project directory (“project-assets/..” rather than “"/project-assets/..”), and absolute, rather than relative URLs are used for the image sources. 
+The site is hosted on [GitHub Pages](https://paddywc.github.io/milestone-project-1/). The source of this code is the [gh-pages branch](https://github.com/Paddywc/milestone-project-1/tree/gh-pages) of the project GitHub repository. It mirrors the master branch in every way, with the exception of some media URLs.  The leading slash is removed for CSS imports from the project directory (“project-assets/..” rather than “"/project-assets/..”), and absolute, rather than relative URLs are used for the image sources. Direct onlinewebfont imports were also removed from HTML templates. All these changes are to ensure that these elements import correctly to GitHub Pages.
 
 ## Credits
--	Code for embedding Instagram code is from the [Instagram website]( https://www.instagram.com/developer/embedding/)
+-	Code for embedding Instagram code is from the [Instagram website](https://www.instagram.com/developer/embedding/)
 -	Kalligraphia, Hobo, Quotes, and Noteworthy  fonts are from [Online Web Fonts](https://www.onlinewebfonts.com/), 
 -	Font icons are from [Google Material Design Icons](https://material.io/tools/icons/?style=baseline) and [Font Awesome](https://fontawesome.com/)
